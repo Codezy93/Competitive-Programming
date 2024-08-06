@@ -18,17 +18,15 @@ Print YES, if the boys can divide the watermelon into two parts, each of them we
 ## Solution
 ```python
 w = int(input())
-can: bool = False
-if w%2 == 0:
-    for i in range(0, w, 2):
-        for j in range(0, w, 2):
-            if i + j == w:
-                print('Yes')
-                break
-        if can:
+
+if w % 2 != 0 or w == 2:
+    print("NO")
+else:
+    for w1 in range(2, w+1, 2):
+        print(w1)
+        if w1%2==0 and (w-w1)%2 == 0:
+            print('YES')
             break
     else:
-        print("No")
-else:
-    print("No")
+        print("NO")
 ```
