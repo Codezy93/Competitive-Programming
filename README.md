@@ -22,3 +22,10 @@ In this repository, you will find my personal solutions to coding problems from 
 | Word Score | HackerRank | 05-08-2024 |
 | Valid Palindrome | LeetCode | 05-08-2024 |
 | Kth Character | Unstop | 05-08-2024 |
+| Helpful Maths| CodeForces | 06-08-2024 |
+| Array.diff | CodeWars | 06-08-2024 |
+| Midori and Choclates| GFG | 06-08-2024 |
+| Zoos | HackerEarth | 06-08-2024 |
+| Find a String | HackerRank | 06-08-2024 |
+| Roman to Integer | LeetCode | 06-08-2024 |
+| To Lower Case | Unstop | 06-08-2024 |
