@@ -1,21 +1,9 @@
 # Find a String
 
-Platform: HackerRank
-
 Date: 06/08/2024
 
-## Problem
-In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
-
-NOTE: String letters are case-sensitive.
-
-## Input
-Orignal String and Sub String
-
-## Output
-Number of occourances of sub string
-
 ## Soultion
+#### Python
 ```python
 def count_substring(string, sub_string):
     count = 0

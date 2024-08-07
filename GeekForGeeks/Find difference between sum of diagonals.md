@@ -1,20 +1,9 @@
 # Find difference between sum of diagonals
 
-Platform: GeeksForGeeks
-
 Date: 05/08/2024
 
-## Problem
-Given a matrix Grid[][] of size NxN. Calculate the absolute difference between the sums of its diagonals.
-
-## Input
-N - Side of matrix
-Grid - 2D list of numbers
-
-## Output
-Absolute difference between sum of diagonals
-
 ## Solution
+#### Python
 ```python
 class Solution:
     def diagonalSumDifference(self,N,Grid):

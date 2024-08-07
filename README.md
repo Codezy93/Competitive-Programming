@@ -29,3 +29,10 @@ In this repository, you will find my personal solutions to coding problems from 
 | Find a String | HackerRank | 06-08-2024 |
 | Roman to Integer | LeetCode | 06-08-2024 |
 | To Lower Case | Unstop | 06-08-2024 |
+| Word | CodeForces | 07-08-2024 |
+| Reverse words | CodeWars | 07-08-2024 |
+| K-th element of two Arrays | GFG | 07-08-2024 |
+| Divisibility | HackerEarth | 07-08-2024 |
+| Text Wrap | HackerRank | 07-08-2024 |
+| Remove Duplicates from Sorted Array | LeetCode | 07-08-2024 |
+| Good Pudding | Unstop | 07-08-2024 |
