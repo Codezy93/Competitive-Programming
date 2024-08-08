@@ -36,3 +36,10 @@ In this repository, you will find my personal solutions to coding problems from 
 | Text Wrap | HackerRank | 07-08-2024 |
 | Remove Duplicates from Sorted Array | LeetCode | 07-08-2024 |
 | Good Pudding | Unstop | 07-08-2024 |
+| Nearly Lucky Number | CodeForces | 08-08-2024 |
+| Create Phone Number | CodeWars | 08-08-2024 |
+| Second Largest | GeekForGeeks | 08-08-2024 |
+| Cost of Balloons | HackerEarth | 08-08-2024 |
+| Capitalize! | HackerRank | 08-08-2024 |
+| Add Binary | LeetCode | 08-08-2024 |
+| Diagonal Sum | Unstop | 08-08-2024 |
