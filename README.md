@@ -43,3 +43,10 @@ In this repository, you will find my personal solutions to coding problems from 
 | Capitalize! | HackerRank | 08-08-2024 |
 | Add Binary | LeetCode | 08-08-2024 |
 | Diagonal Sum | Unstop | 08-08-2024 |
+| Beautiful Year | CodeForces | 09-08-2024 |
+| Does my number look big in this | CodeWars | 09-08-2024 |
+| Power of 2 | GeekForGeeks | 09-08-2024 |
+| Ali and Helping innocent people | HackerEarth | 09-08-2024 |
+| Python Evaluation | HackerRank | 09-08-2024 |
+| Number of 1 Bits | LeetCode | 09-08-2024 |
+| Robot Lap | Unstop | 09-08-2024 |
