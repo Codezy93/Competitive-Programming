@@ -50,3 +50,10 @@ In this repository, you will find my personal solutions to coding problems from 
 | Python Evaluation | HackerRank | 09-08-2024 |
 | Number of 1 Bits | LeetCode | 09-08-2024 |
 | Robot Lap | Unstop | 09-08-2024 |
+| Wrong Subtraction | CodeForces | 10-08-2024 |
+| Count the smiley faces | CodeWars | 10-08-2024 |
+| Array Leaders | GeekForGeeks | 10-08-2024 |
+| Roy and Profile Picture | HackerEarth | 10-08-2024 |
+| Set.Add() | HackerRank | 10-08-2024 |
+| Majority Element | LeetCode | 10-08-2024 |
+| Matching Count | Unstop | 10-08-2024 |
