@@ -57,3 +57,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Set.Add() | HackerRank | 10-08-2024 |
 | Majority Element | LeetCode | 10-08-2024 |
 | Matching Count | Unstop | 10-08-2024 |
+| Bear and Big Brother | CodeForces | 11-08-2024 |
+| Perimeter of squares in a rectangle | CodeWars | 11-08-2024 |
+| Common in 3 sorted array | GeekForGeeks | 11-08-2024 |
+| Life the Universe and Everything | HackerEarth | 11-08-2024 |
+| Validating Phone Numbers | HackerRank | 11-08-2024 |
+| Add Digits | LeetCode | 11-08-2024 |
