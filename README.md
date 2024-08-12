@@ -63,3 +63,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Life the Universe and Everything | HackerEarth | 11-08-2024 |
 | Validating Phone Numbers | HackerRank | 11-08-2024 |
 | Add Digits | LeetCode | 11-08-2024 |
+| A Tram | CodeForces | 12-08-2024 |
+| Regex Password Validation | CodeWars | 12-08-2024 |
+| Find the median | GeekForGeeks | 12-08-2024 |
+| Going to office | HackerEarth | 12-08-2024 |
+| Arrays Introduction | HackerRank | 12-08-2024 |
+| Fizz Buzz | LeetCode | 12-08-2024 |
