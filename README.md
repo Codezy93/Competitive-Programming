@@ -69,3 +69,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Going to office | HackerEarth | 12-08-2024 |
 | Arrays Introduction | HackerRank | 12-08-2024 |
 | Fizz Buzz | LeetCode | 12-08-2024 |
+| Football | CodeForces | 13-08-2024 |
+| Number of trailing zeros of N | CodeWars | 13-08-2024 |
+| Next Greater Element | GeekForGeeks | 13-08-2024 |
+| Count in String | HackerEarth | 13-08-2024 |
+| Strings | HackerRank | 13-08-2024 |
+| Intersection in Two Arrays | LeetCode | 13-08-2024 |
