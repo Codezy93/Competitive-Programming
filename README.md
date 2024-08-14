@@ -75,3 +75,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Count in String | HackerEarth | 13-08-2024 |
 | Strings | HackerRank | 13-08-2024 |
 | Intersection in Two Arrays | LeetCode | 13-08-2024 |
+| Chat Room | CodeForces | 14-08-2024 |
+| Moving Zeros To End | CodeWars | 14-08-2024 |
+| Array Search | GeekForGeeks | 14-08-2024 |
+| Rest in Peace - 21-1 | HackerEarth | 14-08-2024 |
+| class | HackerRank | 14-08-2024 |
+| Finding Smallest Letter Greater than Target | LeetCode | 14-08-2024 |
