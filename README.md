@@ -81,3 +81,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Rest in Peace - 21-1 | HackerEarth | 14-08-2024 |
 | class | HackerRank | 14-08-2024 |
 | Finding Smallest Letter Greater than Target | LeetCode | 14-08-2024 |
+| Magnets | CodeForces | 15-08-2024 |
+| First non-repeating character | CodeWars | 15-08-2024 |
+| Reverse a string | GeekForGeeks | 15-08-2024 |
+| Number of steps | HackerEarth | 15-08-2024 |
+| Rectangle Area | HackerRank | 15-08-2024 |
+| Find the Difference | LeetCode | 15-08-2024 |
