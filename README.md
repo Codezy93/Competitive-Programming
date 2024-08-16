@@ -87,3 +87,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Number of steps | HackerEarth | 15-08-2024 |
 | Rectangle Area | HackerRank | 15-08-2024 |
 | Find the Difference | LeetCode | 15-08-2024 |
+| Drinks | CodeForces | 16-08-2024 |
+| Not Very Secure | CodeWars | 16-08-2024 |
+| Peak Element | GeekForGeeks | 16-08-2024 |
+| Calculate the Power | HackerEarth | 16-08-2024 |
+| Classes and Objects | HackerRank | 16-08-2024 |
+| Excel Sheet Column Tile | LeetCode | 16-08-2024 |
