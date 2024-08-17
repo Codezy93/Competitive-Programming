@@ -93,3 +93,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Calculate the Power | HackerEarth | 16-08-2024 |
 | Classes and Objects | HackerRank | 16-08-2024 |
 | Excel Sheet Column Tile | LeetCode | 16-08-2024 |
+| Panagram | CodeForces | 17-08-2024 |
+| What Century is in | CodeWars | 17-08-2024 |
+| Triangle shrinking downwards | GeekForGeeks | 17-08-2024 |
+| Monk and Nice Strings | HackerEarth | 17-08-2024 |
+| C++ Class Templates | HackerRank | 17-08-2024 |
+| Base 7 | LeetCode | 17-08-2024 |
