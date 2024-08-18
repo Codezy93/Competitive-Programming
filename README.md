@@ -99,3 +99,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Monk and Nice Strings | HackerEarth | 17-08-2024 |
 | C++ Class Templates | HackerRank | 17-08-2024 |
 | Base 7 | LeetCode | 17-08-2024 |
+| IQ Test | CodeForces | 18-08-2024 |
+| Good vs Evil | CodeWars | 18-08-2024 |
+| Union of Two Sorted Arrays | GeekForGeeks | 18-08-2024 |
+| Seven-Segment Display | HackerEarth | 18-08-2024 |
+| Structs | HackerRank | 18-08-2024 |
+| Jewels and Stones | LeetCode | 18-08-2024 |
