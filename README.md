@@ -105,3 +105,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Seven-Segment Display | HackerEarth | 18-08-2024 |
 | Structs | HackerRank | 18-08-2024 |
 | Jewels and Stones | LeetCode | 18-08-2024 |
+| I_love_%username% | CodeForces | 19-08-2024 |
+| The if Function | CodeWars | 19-08-2024 |
+| Square root of a number | GeekForGeeks | 19-08-2024 |
+| Split Houses | HackerEarth | 19-08-2024 |
+| Multi Level Inheritance | HackerRank | 19-08-2024 |
+| Valid Perfect Square | LeetCode | 19-08-2024 |
