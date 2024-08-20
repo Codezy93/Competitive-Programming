@@ -111,3 +111,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Split Houses | HackerEarth | 19-08-2024 |
 | Multi Level Inheritance | HackerRank | 19-08-2024 |
 | Valid Perfect Square | LeetCode | 19-08-2024 |
+| A+B Again | CodeForces | 20-08-2024 |
+| Sum of Numbers | CodeWars | 20-08-2024 |
+| Count Digits | GeekForGeeks | 20-08-2024 |
+| Max Game | HackerEarth | 20-08-2024 |
+| Inherited Code | HackerRank | 20-08-2024 |
+| Squares of a sorted array | LeetCode | 20-08-2024 |
