@@ -117,3 +117,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Max Game | HackerEarth | 20-08-2024 |
 | Inherited Code | HackerRank | 20-08-2024 |
 | Squares of a sorted array | LeetCode | 20-08-2024 |
+| Lucky | CodeForces | 21-08-2024 |
+| String Ends with | CodeWars | 21-08-2024 |
+| Palindrome String | GeekForGeeks | 21-08-2024 |
+| ZrZr | HackerEarth | 21-08-2024 |
+| Inheritance Introduction | HackerRank | 21-08-2024 |
+| Reformat Date | LeetCode | 21-08-2024 |
