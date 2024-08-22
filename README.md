@@ -123,3 +123,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | ZrZr | HackerEarth | 21-08-2024 |
 | Inheritance Introduction | HackerRank | 21-08-2024 |
 | Reformat Date | LeetCode | 21-08-2024 |
+| HQ9+ | CodeForces | 22-08-2024 |
+| Replace with Alphabet Position | CodeWars | 22-08-2024 |
+| Rotate Array | GeekForGeeks | 22-08-2024 |
+| Monk Rotation | HackerEarth | 22-08-2024 |
+| Vector-Sort | HackerRank | 22-08-2024 |
+| Counting Bits | LeetCode | 22-08-2024 |
