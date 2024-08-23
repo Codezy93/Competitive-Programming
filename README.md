@@ -129,3 +129,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Monk Rotation | HackerEarth | 22-08-2024 |
 | Vector-Sort | HackerRank | 22-08-2024 |
 | Counting Bits | LeetCode | 22-08-2024 |
+| Dubstep | CodeForces | 23-08-2024 |
+| Isograms | CodeWars | 23-08-2024 |
+| Floor in sorted Array | GeekForGeeks | 23-08-2024 |
+| Monk and Suffix Sort | HackerEarth | 23-08-2024 |
+| Collections Counter | HackerRank | 23-08-2024 |
+| class Solution: | LeetCode | 23-08-2024 |
