@@ -16,4 +16,3 @@ class Solution:
             n //= 26
         return ''.join(result[::-1])
 ```
-        
