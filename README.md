@@ -135,3 +135,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Monk and Suffix Sort | HackerEarth | 23-08-2024 |
 | Collections Counter | HackerRank | 23-08-2024 |
 | class Solution: | LeetCode | 23-08-2024 |
+| Holiday Of Equality | CodeForces | 24-08-2024 |
+| Friend or Foe | CodeWars | 24-08-2024 |
+| First Repeating Element | GeekForGeeks | 24-08-2024 |
+| Monk and Inversions | HackerEarth | 24-08-2024 |
+| Exceptions | HackerRank | 24-08-2024 |
+| Richest Customer Wealth | LeetCode | 24-08-2024 |
