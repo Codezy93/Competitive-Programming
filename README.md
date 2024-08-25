@@ -141,3 +141,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Monk and Inversions | HackerEarth | 24-08-2024 |
 | Exceptions | HackerRank | 24-08-2024 |
 | Richest Customer Wealth | LeetCode | 24-08-2024 |
+| Plus or Minus | CodeForces | 25-08-2024 |
+| Square(n) numbers | CodeWars | 25-08-2024 |
+| Prime Number | GeekForGeeks | 25-08-2024 |
+| Maximum Borders | HackerEarth | 25-08-2024 |
+| Variable Sized Arrays | HackerRank | 25-08-2024 |
+| Third Maximum Number | LeetCode | 25-08-2024 |
