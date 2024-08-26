@@ -147,3 +147,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Maximum Borders | HackerEarth | 25-08-2024 |
 | Variable Sized Arrays | HackerRank | 25-08-2024 |
 | Third Maximum Number | LeetCode | 25-08-2024 |
+| Hit The Lottery | CodeForces | 26-08-2024 |
+| Split String | CodeWars | 26-08-2024 |
+| Binary Search | GeekForGeeks | 26-08-2024 |
+| Minimum AND xor OR | HackerEarth | 26-08-2024 |
+| Vector Erase | HackerRank | 26-08-2024 |
+| Keyboard Row | LeetCode | 26-08-2024 |
