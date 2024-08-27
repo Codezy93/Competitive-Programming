@@ -153,3 +153,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Minimum AND xor OR | HackerEarth | 26-08-2024 |
 | Vector Erase | HackerRank | 26-08-2024 |
 | Keyboard Row | LeetCode | 26-08-2024 |
+| Anton and Polyhedrons | CodeForces | 27-08-2024 |
+| Printer Errors | CodeWars | 27-08-2024 |
+| Selection Sort | GeekForGeeks | 27-08-2024 |
+| Find Pairs | HackerEarth | 27-08-2024 |
+| Box It | HackerRank | 27-08-2024 |
+| Longest Common Prefix | LeetCode | 27-08-2024 |
