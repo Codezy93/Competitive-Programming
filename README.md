@@ -159,3 +159,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Find Pairs | HackerEarth | 27-08-2024 |
 | Box It | HackerRank | 27-08-2024 |
 | Longest Common Prefix | LeetCode | 27-08-2024 |
+| Registration System | CodeForces | 28-08-2024 |
+| Mumbling | CodeWars | 28-08-2024 |
+| Remove Duplicates from sorted array | GeekForGeeks | 28-08-2024 |
+| Best Index | HackerEarth | 28-08-2024 |
+| Print Pretty | HackerRank | 28-08-2024 |
+| Number of Students Doing Homework at a Given Time | LeetCode | 28-08-2024 |
