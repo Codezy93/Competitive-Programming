@@ -165,3 +165,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Best Index | HackerEarth | 28-08-2024 |
 | Print Pretty | HackerRank | 28-08-2024 |
 | Number of Students Doing Homework at a Given Time | LeetCode | 28-08-2024 |
+| Codeforces Checking | CodeForces | 29-08-2024 |
+| Calculate Average | CodeWars | 29-08-2024 |
+| Check if array is sorted | GeekForGeeks | 29-08-2024 |
+| Monk being Monitor | HackerEarth | 29-08-2024 |
+| Sets-STL | HackerRank | 29-08-2024 |
+| Isomorphic String | LeetCode | 29-08-2024 |
