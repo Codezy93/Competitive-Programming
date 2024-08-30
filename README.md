@@ -171,3 +171,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Monk being Monitor | HackerEarth | 29-08-2024 |
 | Sets-STL | HackerRank | 29-08-2024 |
 | Isomorphic String | LeetCode | 29-08-2024 |
+| Theatre Square | CodeForces | 30-08-2024 |
+| Counting Sheep | CodeWars | 30-08-2024 |
+| Reverse Words | GeekForGeeks | 30-08-2024 |
+| Parity-Binary Sort | HackerEarth | 30-08-2024 |
+| Preprocessor Solution | HackerRank | 30-08-2024 |
+| Convert The Temperature | LeetCode | 30-08-2024 |
