@@ -177,3 +177,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Parity-Binary Sort | HackerEarth | 30-08-2024 |
 | Preprocessor Solution | HackerRank | 30-08-2024 |
 | Convert The Temperature | LeetCode | 30-08-2024 |
+| Bit++ | CodeForces | 31-08-2024 |
+| How good are you really | CodeWars | 31-08-2024 |
+| Armstrong Number | GeekForGeeks | 31-08-2024 |
+| Simon Cannot Sleep | HackerEarth | 31-08-2024 |
+| Polar Coordinates | HackerRank | 31-08-2024 |
+| Find the Peaks | LeetCode | 31-08-2024 |
