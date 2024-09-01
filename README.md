@@ -183,3 +183,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Simon Cannot Sleep | HackerEarth | 31-08-2024 |
 | Polar Coordinates | HackerRank | 31-08-2024 |
 | Find the Peaks | LeetCode | 31-08-2024 |
+| Next Round | CodeForces | 01-09-2024 |
+| Abbrevate a Two Word Name | CodeWars | 01-09-2024 |
+| String Rotated by Two Places | GeekForGeeks | 01-09-2024 |
+| Excursion | HackerEarth | 01-09-2024 |
+| Compress the String | HackerRank | 01-09-2024 |
+| Power of Two | LeetCode | 01-09-2024 |
