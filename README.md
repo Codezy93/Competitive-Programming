@@ -189,3 +189,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Excursion | HackerEarth | 01-09-2024 |
 | Compress the String | HackerRank | 01-09-2024 |
 | Power of Two | LeetCode | 01-09-2024 |
+| Beautiful Matrix | CodeForces | 02-09-2024 |
+| Is this a Triangle | CodeWars | 02-09-2024 |
+| Count the Zeros | GeekForGeeks | 02-09-2024 |
+| Case Conversion | HackerEarth | 02-09-2024 |
+| String Formatting | HackerRank | 02-09-2024 |
+| Difference Between Element Sum and Digit Sum of an Array | LeetCode | 02-09-2024 |
