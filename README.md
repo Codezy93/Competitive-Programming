@@ -195,3 +195,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Case Conversion | HackerEarth | 02-09-2024 |
 | String Formatting | HackerRank | 02-09-2024 |
 | Difference Between Element Sum and Digit Sum of an Array | LeetCode | 02-09-2024 |
+| Translation | CodeForces | 03-09-2024 |
+| Calculate BMI | CodeWars | 03-09-2024 |
+| Matrix Search | GeekForGeeks | 03-09-2024 |
+| Kth Character | HackerEarth | 03-09-2024 |
+| Cpp Exception Handling | HackerRank | 03-09-2024 |
+| Type of Triangle | LeetCode | 03-09-2024 |
