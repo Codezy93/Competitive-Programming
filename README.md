@@ -245,3 +245,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Kth Character | HackerEarth | 03-09-2024 |
 | Cpp Exception Handling | HackerRank | 03-09-2024 |
 | Type of Triangle | LeetCode | 03-09-2024 |
+| Raising Bacteria | CodeForces | 04-09-2024 |
+| Find the Odd Int | CodeWars | 04-09-2024 |
+| First n fibonacci | GeekForGeeks | 04-09-2024 |
+| Set Numbers | HackerEarth | 04-09-2024 |
+| Messages Order | HackerRank | 04-09-2024 |
+| Robot Return to Origin | LeetCode | 04-09-2024 |
