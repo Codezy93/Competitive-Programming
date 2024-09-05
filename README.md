@@ -251,3 +251,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Set Numbers | HackerEarth | 04-09-2024 |
 | Messages Order | HackerRank | 04-09-2024 |
 | Robot Return to Origin | LeetCode | 04-09-2024 |
+| Elephant | CodeForces | 05-09-2024 |
+| Youre a Square | CodeWars | 05-09-2024 |
+| Reverse a string using stack | GeekForGeeks | 05-09-2024 |
+| Sagars Gift | HackerEarth | 05-09-2024 |
+| itertools permutations | HackerRank | 05-09-2024 |
+| Smallest Even Multiple | LeetCode | 05-09-2024 |
