@@ -77,10 +77,11 @@ def git():
 def main():
     input_file = 'problems.txt'
     problem_data = read_and_parse_file(input_file)
-    #create_files(problem_data)
+    create_files(problem_data)
     table(problem_data)
     git()
-    # post(problem_data)
+    print()
+    post(problem_data)
 
 main()
 
