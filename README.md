@@ -257,3 +257,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Sagars Gift | HackerEarth | 05-09-2024 |
 | itertools permutations | HackerRank | 05-09-2024 |
 | Smallest Even Multiple | LeetCode | 05-09-2024 |
+| Vanya and Fence | CodeForces | 06-09-2024 |
+| Sum of Numbers from 0 to N Dart | CodeWars | 06-09-2024 |
+| Number of 1 Bit | GeekForGeeks | 06-09-2024 |
+| Illegible String | HackerEarth | 06-09-2024 |
+| itertools Product | HackerRank | 06-09-2024 |
+| Subtract the Product and Sum of Digits of an Integer | LeetCode | 06-09-2024 |

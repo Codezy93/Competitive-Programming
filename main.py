@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from pprint import pprint
+from subprocess import call
 
 def read_and_parse_file(file_path):
     with open(file_path, 'r') as file:
@@ -47,10 +48,11 @@ Date: {current_date}
             file.write(content)
 
 def table(problem_data):
-    for i in problem_data:
-        platform_name, problem_name, code = i
-        current_date = datetime.now().strftime('%d-%m-%Y')
-        print(f"| {problem_name} | {platform_name} | {current_date} |")
+    current_date = datetime.now().strftime('%d-%m-%Y')
+    with open("README.md", 'a') as file:
+        for i in problem_data:
+            platform_name, problem_name, code = i
+            file.write(f"| {problem_name} | {platform_name} | {current_date} |\n")
 
 def post(problem_data):
     print(f"🌟 Day {(datetime.now() - datetime(2024, 8, 4)).days} of #100DaysOfCode! 🌟")
@@ -62,13 +64,42 @@ def post(problem_data):
         print(f"{platform_name}: {problem_name}")
     print("#CodingChallenge #Programming #DSA")
 
+def git():
+    msg = f"Day {(datetime.now() - datetime(2024, 8, 4)).days} of 100: 100 Days Coding Challenge"
+    commands = [
+        "git add .",
+        f'git commit -m "{msg}"',
+        "git push"
+    ]
+    for i in commands:
+        call(i)
+
 def main():
     input_file = 'problems.txt'
     problem_data = read_and_parse_file(input_file)
-    create_files(problem_data)
+    #create_files(problem_data)
     table(problem_data)
-    post(problem_data)
-    print()
-    print(f"Day {(datetime.now() - datetime(2024, 8, 4)).days} of 100: 100 Days Coding Challenge")
+    git()
+    # post(problem_data)
 
 main()
+
+'''
+CodeForces
+
+====X====
+CodeWars
+
+====X====
+GeekForGeeks
+
+====X====
+HackerEarth
+
+====X====
+HackerRank
+
+====X====
+LeetCode
+
+'''
