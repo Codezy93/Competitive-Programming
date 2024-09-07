@@ -66,6 +66,7 @@ def post(problem_data):
 
 def git():
     msg = f"Day {(datetime.now() - datetime(2024, 8, 4)).days} of 100: 100 Days Coding Challenge"
+    print(msg)
     commands = [
         "git add .",
         f'git commit -m "{msg}"',
@@ -79,7 +80,9 @@ def main():
     problem_data = read_and_parse_file(input_file)
     create_files(problem_data)
     table(problem_data)
-    git()
+    inp = input("Confirm to push changes to git: ")
+    if inp == "1":
+        git()
     print()
     post(problem_data)
 

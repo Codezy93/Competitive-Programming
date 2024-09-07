@@ -263,3 +263,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Illegible String | HackerEarth | 06-09-2024 |
 | itertools Product | HackerRank | 06-09-2024 |
 | Subtract the Product and Sum of Digits of an Integer | LeetCode | 06-09-2024 |
+| Domino Piling | CodeForces | 07-09-2024 |
+| Ones and Zeros | CodeWars | 07-09-2024 |
+| Equilibrium Point | GeekForGeeks | 07-09-2024 |
+| Fitting Circles | HackerEarth | 07-09-2024 |
+| Collection Deque | HackerRank | 07-09-2024 |
+| Excel Sheet Column Number | LeetCode | 07-09-2024 |
