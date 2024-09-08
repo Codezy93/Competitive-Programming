@@ -269,3 +269,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Fitting Circles | HackerEarth | 07-09-2024 |
 | Collection Deque | HackerRank | 07-09-2024 |
 | Excel Sheet Column Number | LeetCode | 07-09-2024 |
+| Petya and Strings | CodeForces | 08-09-2024 |
+| Shortest Knight Path | CodeWars | 08-09-2024 |
+| Plus One | GeekForGeeks | 08-09-2024 |
+| Minimize Cost | HackerEarth | 08-09-2024 |
+| Set Union Operation | HackerRank | 08-09-2024 |
+| Fibonacci Number | LeetCode | 08-09-2024 |
