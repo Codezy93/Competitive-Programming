@@ -275,3 +275,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Minimize Cost | HackerEarth | 08-09-2024 |
 | Set Union Operation | HackerRank | 08-09-2024 |
 | Fibonacci Number | LeetCode | 08-09-2024 |
+| Boy or Girl | CodeForces | 09-09-2024 |
+| Jaden Casing String | CodeWars | 09-09-2024 |
+| Kth Smallest | GeekForGeeks | 09-09-2024 |
+| Hamming Sort | HackerEarth | 09-09-2024 |
+| Linear Algebra | HackerRank | 09-09-2024 |
+| License Key Formatting | LeetCode | 09-09-2024 |
