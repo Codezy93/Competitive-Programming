@@ -281,3 +281,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Hamming Sort | HackerEarth | 09-09-2024 |
 | Linear Algebra | HackerRank | 09-09-2024 |
 | License Key Formatting | LeetCode | 09-09-2024 |
+| In Search of an Easy Problem | CodeForces | 10-09-2024 |
+| Sum without highest and lowest number | CodeWars | 10-09-2024 |
+| Intersection of Two Arrays | GeekForGeeks | 10-09-2024 |
+| Robotic Moves | HackerEarth | 10-09-2024 |
+| Set Intersection Operation | HackerRank | 10-09-2024 |
+| Number of Steps to Reduce a Number to Zero | LeetCode | 10-09-2024 |
