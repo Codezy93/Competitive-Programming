@@ -287,3 +287,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Robotic Moves | HackerEarth | 10-09-2024 |
 | Set Intersection Operation | HackerRank | 10-09-2024 |
 | Number of Steps to Reduce a Number to Zero | LeetCode | 10-09-2024 |
+| Anton and Danik | CodeForces | 11-09-2024 |
+| Shortest Word | CodeWars | 11-09-2024 |
+| First Set Bit | GeekForGeeks | 11-09-2024 |
+| Color the Boxes | HackerEarth | 11-09-2024 |
+| Introduction to Sets | HackerRank | 11-09-2024 |
+| Score of a string | LeetCode | 11-09-2024 |
