@@ -293,3 +293,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Color the Boxes | HackerEarth | 11-09-2024 |
 | Introduction to Sets | HackerRank | 11-09-2024 |
 | Score of a string | LeetCode | 11-09-2024 |
+| Is your horseshoe on the other hoof | CodeForces | 12-09-2024 |
+| Convert number to reversed array of digits | CodeWars | 12-09-2024 |
+| Facing the Sun | GeekForGeeks | 12-09-2024 |
+| Fredo and Game | HackerEarth | 12-09-2024 |
+| Symmetric Difference | HackerRank | 12-09-2024 |
+| Thousand Seperator | LeetCode | 12-09-2024 |
