@@ -299,3 +299,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Fredo and Game | HackerEarth | 12-09-2024 |
 | Symmetric Difference | HackerRank | 12-09-2024 |
 | Thousand Seperator | LeetCode | 12-09-2024 |
+| Sum | CodeForces | 13-09-2024 |
+| Make Upper Case | CodeWars | 13-09-2024 |
+| Divisibility of 8 | GeekForGeeks | 13-09-2024 |
+| String Sum | HackerEarth | 13-09-2024 |
+| Inner and Outer | HackerRank | 13-09-2024 |
+| Replace Question Marks | LeetCode | 13-09-2024 |
