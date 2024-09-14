@@ -305,3 +305,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | String Sum | HackerEarth | 13-09-2024 |
 | Inner and Outer | HackerRank | 13-09-2024 |
 | Replace Question Marks | LeetCode | 13-09-2024 |
+| Again Twenty Five | CodeForces | 14-09-2024 |
+| Total Amount of Points | CodeWars | 14-09-2024 |
+| Count Odd Even | GeekForGeeks | 14-09-2024 |
+| Final Destination | HackerEarth | 14-09-2024 |
+| Min and Max | HackerRank | 14-09-2024 |
+| Avg Salary Exc Min and Max | LeetCode | 14-09-2024 |
