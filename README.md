@@ -311,3 +311,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Final Destination | HackerEarth | 14-09-2024 |
 | Min and Max | HackerRank | 14-09-2024 |
 | Avg Salary Exc Min and Max | LeetCode | 14-09-2024 |
+| Yes or Yes | CodeForces | 15-09-2024 |
+| Return Negative | CodeWars | 15-09-2024 |
+| Max Min | GeekForGeeks | 15-09-2024 |
+| Min-Max | HackerEarth | 15-09-2024 |
+| Dot and Cross | HackerRank | 15-09-2024 |
+| Find Highest Altitude | LeetCode | 15-09-2024 |
