@@ -317,3 +317,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Min-Max | HackerEarth | 15-09-2024 |
 | Dot and Cross | HackerRank | 15-09-2024 |
 | Find Highest Altitude | LeetCode | 15-09-2024 |
+| Hulk | CodeForces | 16-09-2024 |
+| Find the unique number | CodeWars | 16-09-2024 |
+| Factorial | GeekForGeeks | 16-09-2024 |
+| Furniture Transportation | HackerEarth | 16-09-2024 |
+| Map and Lambda Functions | HackerRank | 16-09-2024 |
+| Concatenation of Array | LeetCode | 16-09-2024 |
