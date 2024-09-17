@@ -323,3 +323,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Furniture Transportation | HackerEarth | 16-09-2024 |
 | Map and Lambda Functions | HackerRank | 16-09-2024 |
 | Concatenation of Array | LeetCode | 16-09-2024 |
+| String Task | CodeForces | 17-09-2024 |
+| Sentence Smash | CodeWars | 17-09-2024 |
+| Value equal Index | GeekForGeeks | 17-09-2024 |
+| Beauty Factor | HackerEarth | 17-09-2024 |
+| Find the Score XML | HackerRank | 17-09-2024 |
+| Pascals Triangle | LeetCode | 17-09-2024 |
