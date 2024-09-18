@@ -329,3 +329,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Beauty Factor | HackerEarth | 17-09-2024 |
 | Find the Score XML | HackerRank | 17-09-2024 |
 | Pascals Triangle | LeetCode | 17-09-2024 |
+| Stones on the Table | CodeForces | 18-09-2024 |
+| Descending Order | CodeWars | 18-09-2024 |
+| Rotating Array | GeekForGeeks | 18-09-2024 |
+| Breakup App | HackerEarth | 18-09-2024 |
+| Set Discard Remove Pop | HackerRank | 18-09-2024 |
+| Nth Tribonacci Number | LeetCode | 18-09-2024 |
