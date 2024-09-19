@@ -335,3 +335,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Breakup App | HackerEarth | 18-09-2024 |
 | Set Discard Remove Pop | HackerRank | 18-09-2024 |
 | Nth Tribonacci Number | LeetCode | 18-09-2024 |
+| Soldiers and Bananas | CodeForces | 19-09-2024 |
+| Complementary DNA | CodeWars | 19-09-2024 |
+| Patter 5 | GeekForGeeks | 19-09-2024 |
+| Total Cost | HackerEarth | 19-09-2024 |
+| Sum and Prod | HackerRank | 19-09-2024 |
+| Best Time to Buy and Sell Stock | LeetCode | 19-09-2024 |
