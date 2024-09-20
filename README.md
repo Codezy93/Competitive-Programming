@@ -341,3 +341,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Total Cost | HackerEarth | 19-09-2024 |
 | Sum and Prod | HackerRank | 19-09-2024 |
 | Best Time to Buy and Sell Stock | LeetCode | 19-09-2024 |
+| Young Physicist | CodeForces | 20-09-2024 |
+| String Repeat | CodeWars | 20-09-2024 |
+| Replace 0s with 5s | GeekForGeeks | 20-09-2024 |
+| Sahils Computer Address | HackerEarth | 20-09-2024 |
+| Shape and Reshape | HackerRank | 20-09-2024 |
+| Crawler Log Folder | LeetCode | 20-09-2024 |
