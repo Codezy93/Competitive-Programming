@@ -347,3 +347,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Sahils Computer Address | HackerEarth | 20-09-2024 |
 | Shape and Reshape | HackerRank | 20-09-2024 |
 | Crawler Log Folder | LeetCode | 20-09-2024 |
+| George and Accomodation | CodeForces | 21-09-2024 |
+| Tribonacci Sequence | CodeWars | 21-09-2024 |
+| Palindromic Array | GeekForGeeks | 21-09-2024 |
+| Array Sum | HackerEarth | 21-09-2024 |
+| Zeros and Ones | HackerRank | 21-09-2024 |
+| Maximum number of words you can type | LeetCode | 21-09-2024 |
