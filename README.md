@@ -353,3 +353,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Array Sum | HackerEarth | 21-09-2024 |
 | Zeros and Ones | HackerRank | 21-09-2024 |
 | Maximum number of words you can type | LeetCode | 21-09-2024 |
+| Divisibility Problem | CodeForces | 22-09-2024 |
+| Grasshopper | CodeWars | 22-09-2024 |
+| License Key Formatting | GeekForGeeks | 22-09-2024 |
+| Good String | HackerEarth | 22-09-2024 |
+| Rotate Left | HackerRank | 22-09-2024 |
+| Kids With the Greatest Number of Candies | LeetCode | 22-09-2024 |
