@@ -359,3 +359,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Good String | HackerEarth | 22-09-2024 |
 | Rotate Left | HackerRank | 22-09-2024 |
 | Kids With the Greatest Number of Candies | LeetCode | 22-09-2024 |
+| Gravity Flip | CodeForces | 23-09-2024 |
+| Character in string | CodeWars | 23-09-2024 |
+| Find highest number | GeekForGeeks | 23-09-2024 |
+| Jump out | HackerEarth | 23-09-2024 |
+| Compare the triplets | HackerRank | 23-09-2024 |
+| Smaller than current number | LeetCode | 23-09-2024 |
