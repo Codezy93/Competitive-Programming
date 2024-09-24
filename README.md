@@ -365,3 +365,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Jump out | HackerEarth | 23-09-2024 |
 | Compare the triplets | HackerRank | 23-09-2024 |
 | Smaller than current number | LeetCode | 23-09-2024 |
+| Marathon | CodeForces | 24-09-2024 |
+| Testing 123 | CodeWars | 24-09-2024 |
+| Searching a number | GeekForGeeks | 24-09-2024 |
+| Little Jhool and psychic power | HackerEarth | 24-09-2024 |
+| MinMaxSum | HackerRank | 24-09-2024 |
+| Maximum Product | LeetCode | 24-09-2024 |
