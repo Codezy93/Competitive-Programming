@@ -371,3 +371,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Little Jhool and psychic power | HackerEarth | 24-09-2024 |
 | MinMaxSum | HackerRank | 24-09-2024 |
 | Maximum Product | LeetCode | 24-09-2024 |
+| Queue at School | CodeForces | 25-09-2024 |
+| Positive Sum | CodeWars | 25-09-2024 |
+| Bitonic Point | GeekForGeeks | 25-09-2024 |
+| Best Internet Browser | HackerEarth | 25-09-2024 |
+| Birthday Cake Candles | HackerRank | 25-09-2024 |
+| Decode alphabet from integer | LeetCode | 25-09-2024 |
