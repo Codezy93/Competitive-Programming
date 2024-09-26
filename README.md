@@ -377,3 +377,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Best Internet Browser | HackerEarth | 25-09-2024 |
 | Birthday Cake Candles | HackerRank | 25-09-2024 |
 | Decode alphabet from integer | LeetCode | 25-09-2024 |
+| Police Reqruits | CodeForces | 26-09-2024 |
+| Third Angle of Triangle | CodeWars | 26-09-2024 |
+| Implement StrStr | GeekForGeeks | 26-09-2024 |
+| Art of Verification | HackerEarth | 26-09-2024 |
+| Bill Division | HackerRank | 26-09-2024 |
+| Reverse Integer | LeetCode | 26-09-2024 |
