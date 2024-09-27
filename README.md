@@ -383,3 +383,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Art of Verification | HackerEarth | 26-09-2024 |
 | Bill Division | HackerRank | 26-09-2024 |
 | Reverse Integer | LeetCode | 26-09-2024 |
+| Spy Deteccted | CodeForces | 27-09-2024 |
+| Two Sum | CodeWars | 27-09-2024 |
+| Check for Binary | GeekForGeeks | 27-09-2024 |
+| What is string made of | HackerEarth | 27-09-2024 |
+| Very Big Sum | HackerRank | 27-09-2024 |
+| Can Make Arithmatic Progression from Sequence | LeetCode | 27-09-2024 |
