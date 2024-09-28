@@ -389,3 +389,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | What is string made of | HackerEarth | 27-09-2024 |
 | Very Big Sum | HackerRank | 27-09-2024 |
 | Can Make Arithmatic Progression from Sequence | LeetCode | 27-09-2024 |
+| Division | CodeForces | 28-09-2024 |
+| Reverse String | CodeWars | 28-09-2024 |
+| Maximum occouring character | GeekForGeeks | 28-09-2024 |
+| Determining Number | HackerEarth | 28-09-2024 |
+| Alternating Characters | HackerRank | 28-09-2024 |
+| Goal Parser Interpretation | LeetCode | 28-09-2024 |
