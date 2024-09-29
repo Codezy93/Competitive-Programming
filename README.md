@@ -395,3 +395,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Determining Number | HackerEarth | 28-09-2024 |
 | Alternating Characters | HackerRank | 28-09-2024 |
 | Goal Parser Interpretation | LeetCode | 28-09-2024 |
+| Borze | CodeForces | 29-09-2024 |
+| Area or Perimeter | CodeWars | 29-09-2024 |
+| Missing Numbers | GeekForGeeks | 29-09-2024 |
+| Shil and Palindrome | HackerEarth | 29-09-2024 |
+| Grading Students | HackerRank | 29-09-2024 |
+| First Missing Positive | LeetCode | 29-09-2024 |
