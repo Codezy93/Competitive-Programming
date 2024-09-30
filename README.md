@@ -401,3 +401,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Shil and Palindrome | HackerEarth | 29-09-2024 |
 | Grading Students | HackerRank | 29-09-2024 |
 | First Missing Positive | LeetCode | 29-09-2024 |
+| Expression | CodeForces | 30-09-2024 |
+| Grasshopper Factor | CodeWars | 30-09-2024 |
+| Uncommon Characters | GeekForGeeks | 30-09-2024 |
+| Prateek and his friends | HackerEarth | 30-09-2024 |
+| Diagonal differencede | HackerRank | 30-09-2024 |
+| Power of Four | LeetCode | 30-09-2024 |
