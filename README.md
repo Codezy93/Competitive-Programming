@@ -407,3 +407,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Prateek and his friends | HackerEarth | 30-09-2024 |
 | Diagonal differencede | HackerRank | 30-09-2024 |
 | Power of Four | LeetCode | 30-09-2024 |
+| Calculating Function | CodeForces | 01-10-2024 |
+| Categorize Members | CodeWars | 01-10-2024 |
+| Print 1 to n without loop | GeekForGeeks | 01-10-2024 |
+| The Great Kian | HackerEarth | 01-10-2024 |
+| String Construction | HackerRank | 01-10-2024 |
+| First Unique Character String | LeetCode | 01-10-2024 |
