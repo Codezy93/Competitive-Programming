@@ -413,3 +413,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | The Great Kian | HackerEarth | 01-10-2024 |
 | String Construction | HackerRank | 01-10-2024 |
 | First Unique Character String | LeetCode | 01-10-2024 |
+| Sum of Rounded Number | CodeForces | 02-10-2024 |
+| Transportation on Vacation | CodeWars | 02-10-2024 |
+| Merge without Extra Space | GeekForGeeks | 02-10-2024 |
+| Monk and Sorting Algorithm | HackerEarth | 02-10-2024 |
+| Taum and BDay | HackerRank | 02-10-2024 |
+| Reverse Word in String III | LeetCode | 02-10-2024 |
