@@ -418,4 +418,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Merge without Extra Space | GeekForGeeks | 02-10-2024 |
 | Monk and Sorting Algorithm | HackerEarth | 02-10-2024 |
 | Taum and BDay | HackerRank | 02-10-2024 |
-| Reverse Word in String III | LeetCode | 02-10-2024 |
+| Reverse Word in String III | LeetCode | 02-10-2024 || Lucky Division | CodeForces | 2024-10-03 00:00:00 |
+| Remove exclamation marks | CodeWars | 2024-10-03 00:00:00 |
+| Find the Fines | GeekForGeeks | 2024-10-03 00:00:00 |
+| Monk and his friend | HackerEarth | 2024-10-03 00:00:00 |
+| Angry Professor | HackerRank | 2024-10-03 00:00:00 |
+| Maximum 69 Number | LeetCode | 2024-10-03 00:00:00 |
