@@ -424,3 +424,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Monk and his friend | HackerEarth | 2024-10-03 00:00:00 |
 | Angry Professor | HackerRank | 2024-10-03 00:00:00 |
 | Maximum 69 Number | LeetCode | 2024-10-03 00:00:00 |
+| Twins | CodeForces | 2024-10-04 00:00:00 |
+| Parse int from char | CodeWars | 2024-10-04 00:00:00 |
+| Maximum Money | GeekForGeeks | 2024-10-04 00:00:00 |
+| Cars in Lane | HackerEarth | 2024-10-04 00:00:00 |
+| CamelCase | HackerRank | 2024-10-04 00:00:00 |
+| Sign of the Product of an Array | LeetCode | 2024-10-04 00:00:00 |

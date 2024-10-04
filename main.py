@@ -39,14 +39,15 @@ class l00DaysCodingChallenge:
             file_name = f"{problem_name.replace(' ', '_')}.md"
             file_path = os.path.join(directory, file_name)
             content = f"# {problem_name}\n\nDate: {self.current_date}\n\n## Solution\n\n#### Python\n```python\n{code}\n ```"
-        with open(file_path, 'w') as file:
-            file.write(content)
+            with open(file_path, 'w') as file:
+                file.write(content)
 
     def table(self):
         with open("README.md", 'a') as file:
             for i in self.problem_data:
                 platform_name, problem_name, code = i
-                file.write(f"| {problem_name} | {platform_name} | {self.current_date} |\n")
+                current = str(self.current_date).replace("00:00:00 ", "")
+                file.write(f"| {problem_name} | {platform_name} | {current} |\n")
 
     def post(self):
         print(f"🌟 Day {self.days} of #100DaysOfCode! 🌟\n\nToday's Problems:\n\n")
