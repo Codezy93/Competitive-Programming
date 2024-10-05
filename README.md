@@ -418,15 +418,21 @@ In this repository, you will find my personal solutions to coding problems from 
 | Merge without Extra Space | GeekForGeeks | 02-10-2024 |
 | Monk and Sorting Algorithm | HackerEarth | 02-10-2024 |
 | Taum and BDay | HackerRank | 02-10-2024 |
-| Reverse Word in String III | LeetCode | 02-10-2024 || Lucky Division | CodeForces | 2024-10-03 00:00:00 |
-| Remove exclamation marks | CodeWars | 2024-10-03 00:00:00 |
-| Find the Fines | GeekForGeeks | 2024-10-03 00:00:00 |
-| Monk and his friend | HackerEarth | 2024-10-03 00:00:00 |
-| Angry Professor | HackerRank | 2024-10-03 00:00:00 |
-| Maximum 69 Number | LeetCode | 2024-10-03 00:00:00 |
-| Twins | CodeForces | 2024-10-04 00:00:00 |
-| Parse int from char | CodeWars | 2024-10-04 00:00:00 |
-| Maximum Money | GeekForGeeks | 2024-10-04 00:00:00 |
-| Cars in Lane | HackerEarth | 2024-10-04 00:00:00 |
-| CamelCase | HackerRank | 2024-10-04 00:00:00 |
-| Sign of the Product of an Array | LeetCode | 2024-10-04 00:00:00 |
+| Reverse Word in String III | LeetCode | 02-10-2024 || Lucky Division | CodeForces | 2024-10-03 |
+| Remove exclamation marks | CodeWars | 2024-10-03 |
+| Find the Fines | GeekForGeeks | 2024-10-03 |
+| Monk and his friend | HackerEarth | 2024-10-03 |
+| Angry Professor | HackerRank | 2024-10-03 |
+| Maximum 69 Number | LeetCode | 2024-10-03 |
+| Twins | CodeForces | 2024-10-04 |
+| Parse int from char | CodeWars | 2024-10-04 |
+| Maximum Money | GeekForGeeks | 2024-10-04 |
+| Cars in Lane | HackerEarth | 2024-10-04 |
+| CamelCase | HackerRank | 2024-10-04 |
+| Sign of the Product of an Array | LeetCode | 2024-10-04 |
+| Presents | CodeForces | 2024-10-05 00:00:00 |
+| Opposite Number | CodeWars | 2024-10-05 00:00:00 |
+| InputOutput | GeekForGeeks | 2024-10-05 00:00:00 |
+| Sorted Array | HackerEarth | 2024-10-05 00:00:00 |
+| Find Digits | HackerRank | 2024-10-05 00:00:00 |
+| Count the Digits That Divide a Number | LeetCode | 2024-10-05 00:00:00 |
