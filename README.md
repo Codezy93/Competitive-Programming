@@ -436,3 +436,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Sorted Array | HackerEarth | 2024-10-05 00:00:00 |
 | Find Digits | HackerRank | 2024-10-05 00:00:00 |
 | Count the Digits That Divide a Number | LeetCode | 2024-10-05 00:00:00 |
+| Vasya and Hipster | CodeForces | 2024-10-06 19:39:58.074223 |
+| Break CamelCase | CodeWars | 2024-10-06 19:39:58.074223 |
+| Number is sparse or not | GeekForGeeks | 2024-10-06 19:39:58.074223 |
+| Pop Up Orientation | HackerEarth | 2024-10-06 19:39:58.074223 |
+| Tutorial Challenges | HackerRank | 2024-10-06 19:39:58.074223 |
+| Count Good Triplets | LeetCode | 2024-10-06 19:39:58.074223 |
