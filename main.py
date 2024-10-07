@@ -3,7 +3,7 @@ from datetime import datetime
 import subprocess
 
 class l00DaysCodingChallenge:
-    def __init__(self, filename, current_date):
+    def __init__(self, filename: str, current_date: datetime):
         self.filename = filename
         self.current_date = current_date
         self.start_date = datetime(2024, 8, 4)
@@ -44,9 +44,9 @@ class l00DaysCodingChallenge:
 
     def table(self):
         with open("README.md", 'a') as file:
+            current = str(self.current_date.strftime("%d-%m-%Y"))
             for i in self.problem_data:
                 platform_name, problem_name, code = i
-                current = str(self.current_date).replace("00:00:00 ", "")
                 file.write(f"| {problem_name} | {platform_name} | {current} |\n")
 
     def post(self):
@@ -56,12 +56,8 @@ class l00DaysCodingChallenge:
 
     def git(self):
         msg = f"Day {self.days} of 100: 100 Days Coding Challenge"
-        date_str = f"{self.current_date.strftime('%Y-%m-%d')} 11:11:11"
-        env = os.environ.copy()
-        env['GIT_AUTHOR_DATE'] = date_str
-        env['GIT_COMMITTER_DATE'] = date_str
         subprocess.run(["git", "add", "."], check=True)
-        subprocess.run(["git", "commit", "-m", msg], env=env, check=True)
+        subprocess.run(["git", "commit", "--date", f"{self.current_date.strftime('%Y-%m-%d')} 11:11:11", "-m", msg], check=True)
         subprocess.run(["git", "push"], check=True)
 
     def check_base_file(self):

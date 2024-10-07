@@ -418,7 +418,8 @@ In this repository, you will find my personal solutions to coding problems from 
 | Merge without Extra Space | GeekForGeeks | 02-10-2024 |
 | Monk and Sorting Algorithm | HackerEarth | 02-10-2024 |
 | Taum and BDay | HackerRank | 02-10-2024 |
-| Reverse Word in String III | LeetCode | 02-10-2024 || Lucky Division | CodeForces | 2024-10-03 |
+| Reverse Word in String III | LeetCode | 02-10-2024 |
+| Lucky Division | CodeForces | 2024-10-03 |
 | Remove exclamation marks | CodeWars | 2024-10-03 |
 | Find the Fines | GeekForGeeks | 2024-10-03 |
 | Monk and his friend | HackerEarth | 2024-10-03 |
@@ -430,15 +431,21 @@ In this repository, you will find my personal solutions to coding problems from 
 | Cars in Lane | HackerEarth | 2024-10-04 |
 | CamelCase | HackerRank | 2024-10-04 |
 | Sign of the Product of an Array | LeetCode | 2024-10-04 |
-| Presents | CodeForces | 2024-10-05 00:00:00 |
-| Opposite Number | CodeWars | 2024-10-05 00:00:00 |
-| InputOutput | GeekForGeeks | 2024-10-05 00:00:00 |
-| Sorted Array | HackerEarth | 2024-10-05 00:00:00 |
-| Find Digits | HackerRank | 2024-10-05 00:00:00 |
-| Count the Digits That Divide a Number | LeetCode | 2024-10-05 00:00:00 |
-| Vasya and Hipster | CodeForces | 2024-10-06 19:39:58.074223 |
-| Break CamelCase | CodeWars | 2024-10-06 19:39:58.074223 |
-| Number is sparse or not | GeekForGeeks | 2024-10-06 19:39:58.074223 |
-| Pop Up Orientation | HackerEarth | 2024-10-06 19:39:58.074223 |
-| Tutorial Challenges | HackerRank | 2024-10-06 19:39:58.074223 |
-| Count Good Triplets | LeetCode | 2024-10-06 19:39:58.074223 |
+| Presents | CodeForces | 2024-10-05 |
+| Opposite Number | CodeWars | 2024-10-05 |
+| InputOutput | GeekForGeeks | 2024-10-05 |
+| Sorted Array | HackerEarth | 2024-10-05 |
+| Find Digits | HackerRank | 2024-10-05 |
+| Count the Digits That Divide a Number | LeetCode | 2024-10-05 |
+| Vasya and Hipster | CodeForces | 2024-10-06 |
+| Break CamelCase | CodeWars | 2024-10-06 |
+| Number is sparse or not | GeekForGeeks | 2024-10-06 |
+| Pop Up Orientation | HackerEarth | 2024-10-06 |
+| Tutorial Challenges | HackerRank | 2024-10-06 |
+| Count Good Triplets | LeetCode | 2024-10-06 |
+| Odd Even | CodeForces | 07-10-2024 |
+| Alternating Case | CodeWars | 07-10-2024 |
+| Sort the Array | GeekForGeeks | 07-10-2024 |
+| Recursive Sum | HackerEarth | 07-10-2024 |
+| Service Lane | HackerRank | 07-10-2024 |
+| Goat Latin | LeetCode | 07-10-2024 |
