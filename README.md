@@ -449,3 +449,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Recursive Sum | HackerEarth | 07-10-2024 |
 | Service Lane | HackerRank | 07-10-2024 |
 | Goat Latin | LeetCode | 07-10-2024 |
+| Ultra Fast Mathematician | CodeForces | 08-10-2024 |
+| Correct the mistakes of the character recognition software | CodeWars | 08-10-2024 |
+| Exceptionally Odd | GeekForGeeks | 08-10-2024 |
+| The unlucky 13 | HackerEarth | 08-10-2024 |
+| Word Order | HackerRank | 08-10-2024 |
+| Truncate Sentence | LeetCode | 08-10-2024 |
