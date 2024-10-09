@@ -455,3 +455,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | The unlucky 13 | HackerEarth | 08-10-2024 |
 | Word Order | HackerRank | 08-10-2024 |
 | Truncate Sentence | LeetCode | 08-10-2024 |
+| Anton and Letters | CodeForces | 09-10-2024 |
+| Sum the String | CodeWars | 09-10-2024 |
+| Wave Array | GeekForGeeks | 09-10-2024 |
+| Coin Game | HackerEarth | 09-10-2024 |
+| Beautiful Days | HackerRank | 09-10-2024 |
+| Add Integers | LeetCode | 09-10-2024 |
