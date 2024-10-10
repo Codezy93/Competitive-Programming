@@ -461,3 +461,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Coin Game | HackerEarth | 09-10-2024 |
 | Beautiful Days | HackerRank | 09-10-2024 |
 | Add Integers | LeetCode | 09-10-2024 |
+| I wanna be the guy | CodeForces | 10-10-2024 |
+| Vowel Count | CodeWars | 10-10-2024 |
+| Repeated Characters | GeekForGeeks | 10-10-2024 |
+| Perpendicular Lines | HackerEarth | 10-10-2024 |
+| Sales by match | HackerRank | 10-10-2024 |
+| Three consecutive odds | LeetCode | 10-10-2024 |
