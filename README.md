@@ -467,3 +467,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Perpendicular Lines | HackerEarth | 10-10-2024 |
 | Sales by match | HackerRank | 10-10-2024 |
 | Three consecutive odds | LeetCode | 10-10-2024 |
+| Insomnia Cure | CodeForces | 11-10-2024 |
+| Opposites Attract | CodeWars | 11-10-2024 |
+| Paranthesis Checker | GeekForGeeks | 11-10-2024 |
+| Wet Clothes | HackerEarth | 11-10-2024 |
+| Find the median | HackerRank | 11-10-2024 |
+| Operation to Zero | LeetCode | 11-10-2024 |
