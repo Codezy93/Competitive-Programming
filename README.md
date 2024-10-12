@@ -473,3 +473,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Wet Clothes | HackerEarth | 11-10-2024 |
 | Find the median | HackerRank | 11-10-2024 |
 | Operation to Zero | LeetCode | 11-10-2024 |
+| Love Story | CodeForces | 12-10-2024 |
+| Power of Two | CodeWars | 12-10-2024 |
+| Leap Year | GeekForGeeks | 12-10-2024 |
+| Rain Sound | HackerEarth | 12-10-2024 |
+| Hurdle Race | HackerRank | 12-10-2024 |
+| Max number of baloons | LeetCode | 12-10-2024 |
