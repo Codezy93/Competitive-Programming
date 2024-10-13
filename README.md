@@ -479,3 +479,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Rain Sound | HackerEarth | 12-10-2024 |
 | Hurdle Race | HackerRank | 12-10-2024 |
 | Max number of baloons | LeetCode | 12-10-2024 |
+| Arrival of General | CodeForces | 13-10-2024 |
+| Sum Mixed Array | CodeWars | 13-10-2024 |
+| Find Kth Rotation | GeekForGeeks | 13-10-2024 |
+| Company Mergers | HackerEarth | 13-10-2024 |
+| Halloween Sale | HackerRank | 13-10-2024 |
+| Two of Three | LeetCode | 13-10-2024 |
