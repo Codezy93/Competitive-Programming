@@ -485,3 +485,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Company Mergers | HackerEarth | 13-10-2024 |
 | Halloween Sale | HackerRank | 13-10-2024 |
 | Two of Three | LeetCode | 13-10-2024 |
+| Kefa and First Steps | CodeForces | 14-10-2024 |
+| Unique in Order | CodeWars | 14-10-2024 |
+| Pattern 1 | GeekForGeeks | 14-10-2024 |
+| Notes and Coins | HackerEarth | 14-10-2024 |
+| Chocolate Feast | HackerRank | 14-10-2024 |
+| Check If Two String Arrays are Equivalent | LeetCode | 14-10-2024 |
