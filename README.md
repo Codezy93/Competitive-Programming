@@ -491,3 +491,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Notes and Coins | HackerEarth | 14-10-2024 |
 | Chocolate Feast | HackerRank | 14-10-2024 |
 | Check If Two String Arrays are Equivalent | LeetCode | 14-10-2024 |
+| Taxi | CodeForces | 15-10-2024 |
+| If you cant sleep just count sheep | CodeWars | 15-10-2024 |
+| Find Largest | GeekForGeeks | 15-10-2024 |
+| Let us understand computers | HackerEarth | 15-10-2024 |
+| Day of Programmer | HackerRank | 15-10-2024 |
+| Check If It Is a Striaght Line | LeetCode | 15-10-2024 |
