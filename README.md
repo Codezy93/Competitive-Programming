@@ -497,3 +497,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Let us understand computers | HackerEarth | 15-10-2024 |
 | Day of Programmer | HackerRank | 15-10-2024 |
 | Check If It Is a Striaght Line | LeetCode | 15-10-2024 |
+| Die Roll | CodeForces | 16-10-2024 |
+| Keep Hydrated | CodeWars | 16-10-2024 |
+| Data Type | GeekForGeeks | 16-10-2024 |
+| Count the submatrices | HackerEarth | 16-10-2024 |
+| Minimum Distances | HackerRank | 16-10-2024 |
+| Greatest English letter in Upper and Lower case | LeetCode | 16-10-2024 |
