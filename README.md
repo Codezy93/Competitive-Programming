@@ -503,3 +503,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Count the submatrices | HackerEarth | 16-10-2024 |
 | Minimum Distances | HackerRank | 16-10-2024 |
 | Greatest English letter in Upper and Lower case | LeetCode | 16-10-2024 |
+| Football | CodeForces | 17-10-2024 |
+| Playing with digits | CodeWars | 17-10-2024 |
+| Greatest of three numbers | GeekForGeeks | 17-10-2024 |
+| Domain name | HackerEarth | 17-10-2024 |
+| Gemstones | HackerRank | 17-10-2024 |
+| Find lucky integer in array | LeetCode | 17-10-2024 |
