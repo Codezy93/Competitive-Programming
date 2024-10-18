@@ -509,3 +509,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Domain name | HackerEarth | 17-10-2024 |
 | Gemstones | HackerRank | 17-10-2024 |
 | Find lucky integer in array | LeetCode | 17-10-2024 |
+| Candies and Two Stories | CodeForces | 18-10-2024 |
+| Sum of two lowest positive integers | CodeWars | 18-10-2024 |
+| Sort a string | GeekForGeeks | 18-10-2024 |
+| Subarray Function | HackerEarth | 18-10-2024 |
+| Drawing Book | HackerRank | 18-10-2024 |
+| Find the Middle Index in Array | LeetCode | 18-10-2024 |
