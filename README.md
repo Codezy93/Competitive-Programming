@@ -515,3 +515,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Subarray Function | HackerEarth | 18-10-2024 |
 | Drawing Book | HackerRank | 18-10-2024 |
 | Find the Middle Index in Array | LeetCode | 18-10-2024 |
+| Sum of Odd Integers | CodeForces | 19-10-2024 |
+| Returning Strings | CodeWars | 19-10-2024 |
+| Stack Designer | GeekForGeeks | 19-10-2024 |
+| Lexological Rows | HackerEarth | 19-10-2024 |
+| Counting Valleys | HackerRank | 19-10-2024 |
+| Finding 3-Digit Even Numbers | LeetCode | 19-10-2024 |
