@@ -521,3 +521,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Lexological Rows | HackerEarth | 19-10-2024 |
 | Counting Valleys | HackerRank | 19-10-2024 |
 | Finding 3-Digit Even Numbers | LeetCode | 19-10-2024 |
+| Mishka and Games | CodeForces | 20-10-2024 |
+| Find Maximum and Minimum Values of a List | CodeWars | 20-10-2024 |
+| Pattern 6 | GeekForGeeks | 20-10-2024 |
+| Alien Language | HackerEarth | 20-10-2024 |
+| Repeated Strings | HackerRank | 20-10-2024 |
+| Money in LeetCode Bank | LeetCode | 20-10-2024 |
