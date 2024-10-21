@@ -527,3 +527,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Alien Language | HackerEarth | 20-10-2024 |
 | Repeated Strings | HackerRank | 20-10-2024 |
 | Money in LeetCode Bank | LeetCode | 20-10-2024 |
+| Games | CodeForces | 21-10-2024 |
+| Fake Binary | CodeWars | 21-10-2024 |
+| Search in sorted Arrayclass Solution: | GeekForGeeks | 21-10-2024 |
+| Festivals | HackerEarth | 21-10-2024 |
+| Mars Exploration | HackerRank | 21-10-2024 |
+| Count items matching rule | LeetCode | 21-10-2024 |
