@@ -533,3 +533,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Festivals | HackerEarth | 21-10-2024 |
 | Mars Exploration | HackerRank | 21-10-2024 |
 | Count items matching rule | LeetCode | 21-10-2024 |
+| cAPS lOCK | CodeForces | 22-10-2024 |
+| Century from year | CodeWars | 22-10-2024 |
+| Pattern 10 | GeekForGeeks | 22-10-2024 |
+| Stack and Queues | HackerEarth | 22-10-2024 |
+| Electronic Shop | HackerRank | 22-10-2024 |
+| Palindrome Pairs | LeetCode | 22-10-2024 |
