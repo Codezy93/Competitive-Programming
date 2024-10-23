@@ -539,3 +539,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Stack and Queues | HackerEarth | 22-10-2024 |
 | Electronic Shop | HackerRank | 22-10-2024 |
 | Palindrome Pairs | LeetCode | 22-10-2024 |
+| Canadies and Two Sisters | CodeForces | 23-10-2024 |
+| Convert String to Arrayclass | CodeWars | 23-10-2024 |
+| Non Repeating Characters | GeekForGeeks | 23-10-2024 |
+| Little Jhool and the Magical Jewels | HackerEarth | 23-10-2024 |
+| Correctness and the Loop Invariant | HackerRank | 23-10-2024 |
+| Second Largest Digit in String | LeetCode | 23-10-2024 |
