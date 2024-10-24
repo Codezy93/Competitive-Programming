@@ -545,3 +545,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Little Jhool and the Magical Jewels | HackerEarth | 23-10-2024 |
 | Correctness and the Loop Invariant | HackerRank | 23-10-2024 |
 | Second Largest Digit in String | LeetCode | 23-10-2024 |
+| Restoring Three Numbers | CodeForces | 24-10-2024 |
+| Sort and Star | CodeWars | 24-10-2024 |
+| Implement Stack using Array | GeekForGeeks | 24-10-2024 |
+| All Vowels | HackerEarth | 24-10-2024 |
+| Pangrams | HackerRank | 24-10-2024 |
+| Check if All Characters Have Equal Number of Occurrences | LeetCode | 24-10-2024 |
