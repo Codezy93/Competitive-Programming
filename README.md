@@ -551,3 +551,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | All Vowels | HackerEarth | 24-10-2024 |
 | Pangrams | HackerRank | 24-10-2024 |
 | Check if All Characters Have Equal Number of Occurrences | LeetCode | 24-10-2024 |
+| Odd Divisor | CodeForces | 25-10-2024 |
+| Will you make items | CodeWars | 25-10-2024 |
+| Perfect Numbers | GeekForGeeks | 25-10-2024 |
+| Maximum Occourance | HackerEarth | 25-10-2024 |
+| Array-DS | HackerRank | 25-10-2024 |
+| Count Asterisks | LeetCode | 25-10-2024 |
