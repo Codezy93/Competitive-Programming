@@ -557,3 +557,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Maximum Occourance | HackerEarth | 25-10-2024 |
 | Array-DS | HackerRank | 25-10-2024 |
 | Count Asterisks | LeetCode | 25-10-2024 |
+| Floor Number | CodeForces | 26-10-2024 |
+| Who Likes It | CodeWars | 26-10-2024 |
+| Find Transition Point | GeekForGeeks | 26-10-2024 |
+| James and the menus | HackerEarth | 26-10-2024 |
+| Print the Elements of a Linked List | HackerRank | 26-10-2024 |
+| Capitalize Title | LeetCode | 26-10-2024 |
