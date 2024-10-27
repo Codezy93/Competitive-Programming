@@ -563,3 +563,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | James and the menus | HackerEarth | 26-10-2024 |
 | Print the Elements of a Linked List | HackerRank | 26-10-2024 |
 | Capitalize Title | LeetCode | 26-10-2024 |
+| Amusing Joke | CodeForces | 27-10-2024 |
+| Simple multiplication | CodeWars | 27-10-2024 |
+| Floyd Triangle | GeekForGeeks | 27-10-2024 |
+| Die Die | HackerEarth | 27-10-2024 |
+| Plus Minus | HackerRank | 27-10-2024 |
+| Reverse Words in a String | LeetCode | 27-10-2024 |
