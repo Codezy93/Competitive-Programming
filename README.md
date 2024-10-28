@@ -569,3 +569,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Die Die | HackerEarth | 27-10-2024 |
 | Plus Minus | HackerRank | 27-10-2024 |
 | Reverse Words in a String | LeetCode | 27-10-2024 |
+| Soft Drinking | CodeForces | 28-10-2024 |
+| Invert values | CodeWars | 28-10-2024 |
+| nPr | GeekForGeeks | 28-10-2024 |
+| Confused Monk | HackerEarth | 28-10-2024 |
+| Simple Array Sum | HackerRank | 28-10-2024 |
+| Min Stack | LeetCode | 28-10-2024 |
