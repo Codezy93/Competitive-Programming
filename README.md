@@ -575,3 +575,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Confused Monk | HackerEarth | 28-10-2024 |
 | Simple Array Sum | HackerRank | 28-10-2024 |
 | Min Stack | LeetCode | 28-10-2024 |
+| Cut Ribbon | CodeForces | 29-10-2024 |
+| Round up to the next multiple of 5 | CodeWars | 29-10-2024 |
+| Occurence of an integer in a Linked List | GeekForGeeks | 29-10-2024 |
+| Tic Tac Toe | HackerEarth | 29-10-2024 |
+| Staircase | HackerRank | 29-10-2024 |
+| Tenth Line | LeetCode | 29-10-2024 |
