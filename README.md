@@ -581,3 +581,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Tic Tac Toe | HackerEarth | 29-10-2024 |
 | Staircase | HackerRank | 29-10-2024 |
 | Tenth Line | LeetCode | 29-10-2024 |
+| Puzzles | CodeForces | 30-10-2024 |
+| Extract the domain name from a URL | CodeWars | 30-10-2024 |
+| Multiplication Table | GeekForGeeks | 30-10-2024 |
+| Selection of Cities | HackerEarth | 30-10-2024 |
+| Cats and Mouse | HackerRank | 30-10-2024 |
+| Check if Word Equals Summation of Two Words | LeetCode | 30-10-2024 |
