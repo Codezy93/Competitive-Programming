@@ -587,3 +587,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Selection of Cities | HackerEarth | 30-10-2024 |
 | Cats and Mouse | HackerRank | 30-10-2024 |
 | Check if Word Equals Summation of Two Words | LeetCode | 30-10-2024 |
+| Buy a Shovel | CodeForces | 31-10-2024 |
+| Anagram Detection | CodeWars | 31-10-2024 |
+| Sum of AP Series | GeekForGeeks | 31-10-2024 |
+| The First Meeting | HackerEarth | 31-10-2024 |
+| Angry Professors | HackerRank | 31-10-2024 |
+| Substrings of Size Three with Distinct Characters | LeetCode | 31-10-2024 |
