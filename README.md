@@ -593,3 +593,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | The First Meeting | HackerEarth | 31-10-2024 |
 | Angry Professors | HackerRank | 31-10-2024 |
 | Substrings of Size Three with Distinct Characters | LeetCode | 31-10-2024 |
+| Yet Another Integer Problem | CodeForces | 01-11-2024 |
+| Reverse List Order | CodeWars | 01-11-2024 |
+| Series AP | GeekForGeeks | 01-11-2024 |
+| Roy and Symmetric Logos | HackerEarth | 01-11-2024 |
+| Beautiful Days at the Movies | HackerRank | 01-11-2024 |
+| Divide a String Into Groups of Size k | LeetCode | 01-11-2024 |
