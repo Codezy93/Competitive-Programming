@@ -599,3 +599,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Roy and Symmetric Logos | HackerEarth | 01-11-2024 |
 | Beautiful Days at the Movies | HackerRank | 01-11-2024 |
 | Divide a String Into Groups of Size k | LeetCode | 01-11-2024 |
+| Choosing Teams | CodeForces | 02-11-2024 |
+| Name Shuffler | CodeWars | 02-11-2024 |
+| Reverse Digits | GeekForGeeks | 02-11-2024 |
+| Crazy Kangaroo | HackerEarth | 02-11-2024 |
+| Set Difference Operation | HackerRank | 02-11-2024 |
+| Number of Good Pairs | LeetCode | 02-11-2024 |
