@@ -605,3 +605,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Crazy Kangaroo | HackerEarth | 02-11-2024 |
 | Set Difference Operation | HackerRank | 02-11-2024 |
 | Number of Good Pairs | LeetCode | 02-11-2024 |
+| Team Olympiad | CodeForces | 03-11-2024 |
+| Get Character from ASCII | CodeWars | 03-11-2024 |
+| Print 1 to n without using loops | GeekForGeeks | 03-11-2024 |
+| Biased Chandan | HackerEarth | 03-11-2024 |
+| Python Evaluation | HackerRank | 03-11-2024 |
+| Three Divisors | LeetCode | 03-11-2024 |

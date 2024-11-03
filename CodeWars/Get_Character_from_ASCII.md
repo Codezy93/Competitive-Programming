@@ -1,4 +1,4 @@
-# Python Evaluation
+# Get Character from ASCII
 
 Date: 2024-11-03 00:00:00
 
@@ -6,5 +6,6 @@ Date: 2024-11-03 00:00:00
 
 #### Python
 ```python
-eval(input())
+def get_char(c):
+    return chr(c)
  ```
