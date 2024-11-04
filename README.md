@@ -611,3 +611,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Biased Chandan | HackerEarth | 03-11-2024 |
 | Python Evaluation | HackerRank | 03-11-2024 |
 | Three Divisors | LeetCode | 03-11-2024 |
+| Short Substring | CodeForces | 04-11-2024 |
+| Lario and Muigi Pipe Problem | CodeWars | 04-11-2024 |
+| Compund Interest | GeekForGeeks | 04-11-2024 |
+| LAL Evaluation | HackerEarth | 04-11-2024 |
+| Eval Input | HackerRank | 04-11-2024 |
+| Clozest Number to Zero | LeetCode | 04-11-2024 |
