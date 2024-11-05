@@ -617,3 +617,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | LAL Evaluation | HackerEarth | 04-11-2024 |
 | Eval Input | HackerRank | 04-11-2024 |
 | Clozest Number to Zero | LeetCode | 04-11-2024 |
+| Balanced Arrays | CodeForces | 05-11-2024 |
+| Cat years Dog years | CodeWars | 05-11-2024 |
+| The Dice Problem | GeekForGeeks | 05-11-2024 |
+| Polygon and Angles | HackerEarth | 05-11-2024 |
+| Arrays | HackerRank | 05-11-2024 |
+| Alternating Digit Sum | LeetCode | 05-11-2024 |
