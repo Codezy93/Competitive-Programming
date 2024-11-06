@@ -623,3 +623,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Polygon and Angles | HackerEarth | 05-11-2024 |
 | Arrays | HackerRank | 05-11-2024 |
 | Alternating Digit Sum | LeetCode | 05-11-2024 |
+| Required Remainder | CodeForces | 06-11-2024 |
+| Super Duper Easy | CodeWars | 06-11-2024 |
+| Lower case to upper case | GeekForGeeks | 06-11-2024 |
+| Passing the Parcel | HackerEarth | 06-11-2024 |
+| Zipped | HackerRank | 06-11-2024 |
+| Maximum Value of a String in an Array | LeetCode | 06-11-2024 |
