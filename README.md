@@ -629,3 +629,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Passing the Parcel | HackerEarth | 06-11-2024 |
 | Zipped | HackerRank | 06-11-2024 |
 | Maximum Value of a String in an Array | LeetCode | 06-11-2024 |
+| Multiply by 2 divide by 6 | CodeForces | 07-11-2024 |
+| Is it a Palindrome | CodeWars | 07-11-2024 |
+| Sum of Series | GeekForGeeks | 07-11-2024 |
+| Charged Up Array | HackerEarth | 07-11-2024 |
+| Floor, Ceil and Rint | HackerRank | 07-11-2024 |
+| Remove Trailing Zeros From a String | LeetCode | 07-11-2024 |
