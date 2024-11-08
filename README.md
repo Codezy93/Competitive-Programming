@@ -635,3 +635,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Charged Up Array | HackerEarth | 07-11-2024 |
 | Floor, Ceil and Rint | HackerRank | 07-11-2024 |
 | Remove Trailing Zeros From a String | LeetCode | 07-11-2024 |
+| New Year and Hurry | CodeForces | 08-11-2024 |
+| Drink About | CodeWars | 08-11-2024 |
+| Sum of elements in a matrix | GeekForGeeks | 08-11-2024 |
+| Multiple Occourance | HackerEarth | 08-11-2024 |
+| Concatenate | HackerRank | 08-11-2024 |
+| Percentage of Letter in String | LeetCode | 08-11-2024 |
