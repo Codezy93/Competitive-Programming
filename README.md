@@ -641,3 +641,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Multiple Occourance | HackerEarth | 08-11-2024 |
 | Concatenate | HackerRank | 08-11-2024 |
 | Percentage of Letter in String | LeetCode | 08-11-2024 |
+| Remove Smallest | CodeForces | 09-11-2024 |
+| Students Final Grade | CodeWars | 09-11-2024 |
+| Print Linked List Elements | GeekForGeeks | 09-11-2024 |
+| The Chocolate Rooms | HackerEarth | 09-11-2024 |
+| Transpose and Flatten | HackerRank | 09-11-2024 |
+| Customers who never order | LeetCode | 09-11-2024 |
