@@ -647,3 +647,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | The Chocolate Rooms | HackerEarth | 09-11-2024 |
 | Transpose and Flatten | HackerRank | 09-11-2024 |
 | Customers who never order | LeetCode | 09-11-2024 |
+| Add Odd or Subtract Even | CodeForces | 10-11-2024 |
+| Number of people in bus | CodeWars | 10-11-2024 |
+| Arithmatic Number | GeekForGeeks | 10-11-2024 |
+| Frequency of Employees | HackerEarth | 10-11-2024 |
+| Eye and Identity | HackerRank | 10-11-2024 |
+| Number Complement | LeetCode | 10-11-2024 |
