@@ -653,3 +653,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Frequency of Employees | HackerEarth | 10-11-2024 |
 | Eye and Identity | HackerRank | 10-11-2024 |
 | Number Complement | LeetCode | 10-11-2024 |
+| Dragons | CodeForces | 11-11-2024 |
+| Check the exam | CodeWars | 11-11-2024 |
+| Array Duplicates | GeekForGeeks | 11-11-2024 |
+| Mathematically Beautiful Numbers | HackerEarth | 11-11-2024 |
+| Polynomials | HackerRank | 11-11-2024 |
+| Cells in a Range on an Excel Sheet | LeetCode | 11-11-2024 |
