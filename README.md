@@ -659,3 +659,9 @@ In this repository, you will find my personal solutions to coding problems from 
 | Mathematically Beautiful Numbers | HackerEarth | 11-11-2024 |
 | Polynomials | HackerRank | 11-11-2024 |
 | Cells in a Range on an Excel Sheet | LeetCode | 11-11-2024 |
+| Clock Conversion | CodeForces | 12-11-2024 |
+| Bouncing Balls | CodeWars | 12-11-2024 |
+| Find triplets with zero sum | GeekForGeeks | 12-11-2024 |
+| Dual Issues | HackerEarth | 12-11-2024 |
+| Minimum Height Triangle | HackerRank | 12-11-2024 |
+| Strong Password Checker II | LeetCode | 12-11-2024 |
