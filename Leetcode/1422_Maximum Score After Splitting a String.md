@@ -54,6 +54,19 @@ left = "01110" and right = "1", score = 2 + 1 = 3
 
 ## Code
 ```python
-
-
+class Solution:
+    def maxScore(self, s: str) -> int:
+        left = s[0]
+        right = s[1:]
+        left_score = left.count("0")
+        right_score = right.count("1")
+        max_score = left_score + right_score
+        for i in s[1:-1]:
+            if i == "0":
+                left_score += 1
+            else:
+                right_score -= 1
+            if left_score + right_score > max_score:
+                max_score = left_score + right_score
+        return max_score
 ```
