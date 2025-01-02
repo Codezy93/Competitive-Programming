@@ -52,6 +52,18 @@ We return [2,3,0].
 
 ## Code
 ```python
-
-
+class Solution:
+    def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:
+        sum = 0
+        res = []
+        prefix = []
+        for i in words:
+            if i[0] in 'aeiou' and i[-1] in 'aeiou':
+                sum += 1
+                prefix.append(sum)
+            else:
+                prefix.append(sum)
+        for i in queries:
+            res.append(prefix[i[1]] - (prefix[i[0] - 1] if i[0] > 0 else 0))
+        return res
 ```
