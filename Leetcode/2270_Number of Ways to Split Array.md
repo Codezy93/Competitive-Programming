@@ -56,6 +56,15 @@ There are two valid splits in nums:
 
 ## Code
 ```python
-
-
+class Solution:
+    def waysToSplitArray(self, nums: List[int]) -> int:
+        left = nums[0]
+        right = (sum(nums[1:]))
+        res = 0 if left < right else 1
+        for i in nums[1:len(nums)-1]:
+            left += i
+            right -= i
+            if left >= right:
+                res += 1
+        return res
 ```
