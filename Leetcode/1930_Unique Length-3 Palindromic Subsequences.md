@@ -64,6 +64,18 @@ A **subsequence ** of a string is a new string generated from the original strin
 
 ## Code
 ```python
-
-
+class Solution:
+    def countPalindromicSubsequence(self, s: str) -> int:
+        unique_palindromes = set()
+        first_index = {}
+        last_index = {}
+        for i in range(len(s)):
+            if s[i] not in first_index:
+                first_index[s[i]] = i
+            last_index[s[i]] = i
+        for c in first_index:
+            if first_index[c] < last_index[c]:
+                for char_between in set(s[first_index[c]+1:last_index[c]]):
+                    unique_palindromes.add((c, char_between, c))
+        return len(unique_palindromes)
 ```
