@@ -47,6 +47,14 @@ Each `answer[i]` is calculated considering the **initial ** state of the boxes.
 
 ## Code
 ```python
-
-
+class Solution:
+    def minOperations(self, boxes: str) -> List[int]:
+        steps = []
+        for n in range(len(boxes)):
+            temp = 0
+            for i, j in enumerate(boxes):
+                if j == "1":
+                    temp += abs(n-i)
+            steps.append(temp)
+        return steps
 ```
