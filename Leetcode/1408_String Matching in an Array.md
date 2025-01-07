@@ -52,6 +52,15 @@ A **substring ** is a contiguous sequence of characters within a string
 
 ## Code
 ```python
-
-
+class Solution:
+    def stringMatching(self, words: List[str]) -> List[str]:
+        out = []
+        for i in words:
+            for j in words:
+                if i != j:
+                    if len(i) > len(j) and j in i:
+                        out.append(j)
+                    else:
+                        pass
+        return list(set(out))
 ```
