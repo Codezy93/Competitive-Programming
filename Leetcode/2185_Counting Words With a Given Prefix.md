@@ -44,6 +44,13 @@ A **prefix ** of a string `s` is any leading contiguous substring of `s`.
 
 ## Code
 ```python
-
-
+class Solution:
+    def prefixCount(self, words: List[str], pref: str) -> int:
+        n = len(pref)
+        count = 0
+        for i in words:
+            if len(i) >= n:
+                if i[0:n] == pref:
+                    count += 1
+        return count
 ```
