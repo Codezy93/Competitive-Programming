@@ -49,6 +49,19 @@ Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
 
 ## Code
 ```python
-
-
+class Solution:
+    def canConstruct(self, s: str, k: int) -> bool:
+        if len(s) < k:
+            return False
+        map = {}
+        for i in s:
+            if i in map:
+                map[i] += 1
+            else:
+                map[i] = 1
+        sum = 0
+        for i in map:
+            if map[i]%2 != 0:
+                sum += 1
+        return sum <= k
 ```
