@@ -67,6 +67,26 @@ Changing s[0] to either '(' or ')' will not make s valid.
 
 ## Code
 ```python
-
-
+class Solution:
+    def canBeValid(self, s: str, locked: str) -> bool:
+        string_length = len(s)
+        if string_length % 2 != 0:
+            return False
+        balance = 0
+        for index in range(string_length):
+            if s[index] == '(' or locked[index] == '0':
+                balance += 1
+            elif balance:
+                balance -= 1
+            else:
+                return False
+        balance = 0      
+        for index in range(string_length - 1, -1, -1):
+            if s[index] == ')' or locked[index] == '0':
+                balance += 1
+            elif balance:
+                balance -= 1
+            else:
+                return False      
+        return True
 ```
