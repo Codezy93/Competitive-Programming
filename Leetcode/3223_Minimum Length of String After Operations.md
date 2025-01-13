@@ -56,6 +56,21 @@ We cannot perform any operations, so we return the length of the original string
 
 ## Code
 ```python
-
-
+class Solution:
+    def minimumLength(self, s: str) -> int:
+        if len(s) <= 2:
+            return len(s)
+        map = {}
+        for i in s:
+            if i in map:
+                map[i] += 1
+            else:
+                map[i] = 1
+        count = 0
+        for i in map:
+            if map[i]%2==0:
+                count += 2
+            else:
+                count += 1
+        return count
 ```
