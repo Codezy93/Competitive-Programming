@@ -53,6 +53,17 @@ The integer **3 ** has the same number of set bits as num2, and the value 3 XOR 
 
 ## Code
 ```python
-
-
+class Solution:
+    def minimizeXor(self, num1: int, num2: int) -> int:
+        set_bit_2 = bin(num2).count('1')
+        res = 0
+        for i in range(31, -1, -1):
+            if set_bit_2 > 0 and (num1 & (1 << i)):
+                res |= (1 << i)
+                set_bit_2 -= 1
+        for i in range(32):
+            if set_bit_2 > 0 and not (res & (1 << i)):
+                res |= (1 << i)
+                set_bit_2 -= 1
+        return res
 ```
