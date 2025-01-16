@@ -47,6 +47,26 @@ Thus, one possible nums3 array is [2,5,1,6].
 
 ## Code
 ```python
-
-
+class Solution:
+    def xorAllNums(self, nums1: List[int], nums2: List[int]) -> int:
+        n, m = len(nums1), len(nums2)
+        if n%2 == 0 and m%2 == 0:
+            return 0
+        elif n%2 == 0:
+            res = 0
+            for i in nums1:
+                res ^= i
+            return res
+        elif m%2 == 0:
+            res = 0
+            for i in nums2:
+                res ^= i
+            return res
+        else:
+            res = 0
+            for i in nums1:
+                res ^= i
+            for i in nums2:
+                res ^= i
+            return res
 ```
