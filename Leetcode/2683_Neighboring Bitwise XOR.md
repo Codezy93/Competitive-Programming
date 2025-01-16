@@ -68,6 +68,10 @@ derived[1] = original[1] ⊕ original[0] = 1
 
 ## Code
 ```python
-
-
+class Solution:
+    def doesValidArrayExist(self, derived: List[int]) -> bool:
+        res = 0
+        for i in derived:
+            res ^= i
+        return res == 0
 ```
