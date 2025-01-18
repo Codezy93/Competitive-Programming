@@ -71,6 +71,27 @@ The total cost = 3.
 
 ## Code
 ```python
+from collections import deque
 
-
+class Solution:
+    def minCost(self, grid: List[List[int]]) -> int:
+        rows, cols = len(grid), len(grid[0])
+        directions = [[0, 0], [0, 1], [0, -1], [1, 0], [-1, 0]]
+        queue = deque([(0, 0, 0)])
+        visited = set()
+        while queue:
+            i, j, cost = queue.popleft()
+            if (i, j) in visited:
+                continue
+            visited.add((i, j))
+            if i == rows - 1 and j == cols - 1:
+                return cost
+            for k in range(1, 5):
+                x, y = i + directions[k][0], j + directions[k][1]
+                if 0 <= x < rows and 0 <= y < cols:
+                    if grid[i][j] == k:
+                        queue.appendleft((x, y, cost))
+                    else:
+                        queue.append((x, y, cost + 1))
+        return -1
 ```
