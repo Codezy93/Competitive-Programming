@@ -67,6 +67,14 @@ The second robot will collect 0 + 1 + 3 + 3 + 0 = 7 points.
 
 ## Code
 ```python
-
-
+class Solution:
+    def gridGame(self, grid: List[List[int]]) -> int:
+        min_sum = float('inf')
+        ts = sum(grid[0])
+        bs = 0
+        for i in range(len(grid[0])):
+            ts -= grid[0][i]
+            min_sum = min(min_sum, (max([ts,bs])))
+            bs += grid[1][i]
+        return min_sum
 ```
