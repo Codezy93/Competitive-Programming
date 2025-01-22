@@ -71,6 +71,26 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 
 ## Code
 ```python
-
-
+from collections import deque
+class Solution:
+    def highestPeak(self, is_water: List[List[int]]) -> List[List[int]]:
+        num_rows, num_cols = len(is_water), len(is_water[0])
+        answer_grid = [[-1] * num_cols for _ in range(num_rows)]
+        queue = deque()
+        for row_index, row in enumerate(is_water):
+            for col_index, value in enumerate(row):
+                if value:
+                    queue.append((row_index, col_index))
+                    answer_grid[row_index][col_index] = 0
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+        while queue:
+            current_row, current_col = queue.popleft()
+            for delta_row, delta_col in directions:
+                neighbor_row, neighbor_col = current_row + delta_row, current_col + delta_col
+                if (0 <= neighbor_row < num_rows and
+                        0 <= neighbor_col < num_cols and
+                        answer_grid[neighbor_row][neighbor_col] == -1):
+                    answer_grid[neighbor_row][neighbor_col] = answer_grid[current_row][current_col] + 1
+                    queue.append((neighbor_row, neighbor_col))
+        return answer_grid
 ```
