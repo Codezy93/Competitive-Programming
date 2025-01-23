@@ -57,6 +57,22 @@ Return the number of servers that communicate with any other server.
 
 ## Code
 ```python
-
-
+class Solution:
+    def countServers(self, grid: List[List[int]]) -> int:
+        servers = []
+        comm_server = 0
+        n = len(grid)
+        m = len(grid[0])
+        row = [0]*m
+        column = [0]*n
+        for i, j in enumerate(grid):
+            for k, l in enumerate(j):
+                if l == 1:
+                    row[k] += 1
+                    column[i] += 1
+                    servers.append((i,k))
+        for x, y in servers:
+            if row[y] > 1 or column[x] > 1:
+                comm_server += 1
+        return comm_server
 ```
