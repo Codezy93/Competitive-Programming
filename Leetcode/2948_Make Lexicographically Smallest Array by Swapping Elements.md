@@ -62,6 +62,19 @@ We cannot obtain a lexicographically smaller array by applying any more operatio
 
 ## Code
 ```python
-
-
+class Solution:
+    def lexicographicallySmallestArray(self, nums: List[int], limit: int) -> List[int]:
+        length = len(nums)
+        num_with_index = sorted(zip(nums, range(length)))
+        result = [0] * length
+        i = 0
+        while i < length:
+            j = i + 1
+            while j < length and num_with_index[j][0] - num_with_index[j - 1][0] <= limit:
+                j += 1
+            indices = sorted(index for _, index in num_with_index[i:j])
+            for k, (num, _) in zip(indices, num_with_index[i:j]):
+                result[k] = num
+            i = j
+        return result
 ```
