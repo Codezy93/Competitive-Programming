@@ -71,6 +71,39 @@ The maximum number of employees that can be invited to the meeting is 4.
 
 ## Code
 ```python
-
-
+class Solution:
+    def maximumInvitations(self, favorite: List[int]) -> int:
+        def max_cycle(favorites):
+            n = len(favorites)
+            visited = [False] * n
+            max_ans = 0
+            for i in range(n):
+                if visited[i]:
+                    continue
+                cycle = []
+                j = i
+                while not visited[j]:
+                    cycle.append(j)
+                    visited[j] = True
+                    j = favorites[j]
+                for k, v in enumerate(cycle):
+                    if v == j:
+                        max_ans = max(max_ans, len(cycle) - k)
+                        break
+            return max_ans
+        def topological_sort(favorites):
+            n = len(favorites)
+            indegree = [0] * n
+            longest_path = [1] * n
+            for v in favorites:
+                indegree[v] += 1
+            queue = deque([i for i, d in enumerate(indegree) if d == 0])
+            while queue:
+                current = queue.popleft()
+                longest_path[favorites[current]] = max(longest_path[favorites[current]], longest_path[current] + 1)
+                indegree[favorites[current]] -= 1
+                if indegree[favorites[current]] == 0:
+                    queue.append(favorites[current])
+            return sum(longest_path[i] for i, v in enumerate(favorites) if i == favorites[favorites[i]])
+        return max(max_cycle(favorite), topological_sort(favorite))
 ```
