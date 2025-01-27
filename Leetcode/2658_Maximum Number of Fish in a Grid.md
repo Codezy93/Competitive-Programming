@@ -61,6 +61,21 @@ An **adjacent ** cell of the cell `(r, c)`, is one of the cells `(r, c + 1)`, `(
 
 ## Code
 ```python
-
-
+class Solution:
+    def findMaxFish(self, grid: List[List[int]]) -> int:
+        def dfs(i: int, j: int) -> int:
+            fish_count = grid[i][j]
+            grid[i][j] = 0
+            for dx, dy in [(-1, 0), (0, 1), (1, 0), (0, -1)]:
+                x, y = i + dx, j + dy
+                if 0 <= x < m and 0 <= y < n and grid[x][y]:
+                    fish_count += dfs(x, y)
+            return fish_count
+        m, n = len(grid), len(grid[0])
+        max_fish = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j]:
+                    max_fish = max(max_fish, dfs(i, j))
+        return max_fish 
 ```
