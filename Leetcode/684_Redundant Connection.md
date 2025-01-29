@@ -50,6 +50,18 @@ Return _an edge that can be removed so that the resulting graph is a tree of_`n`
 
 ## Code
 ```python
-
-
+class Solution:
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+        def find_set_leader(vertex):
+            if parent[vertex] != vertex:
+                parent[vertex] = find_set_leader(parent[vertex])
+            return parent[vertex]
+        parent = list(range(len(edges) + 1))
+        for a, b in edges:
+            leader_a = find_set_leader(a)
+            leader_b = find_set_leader(b)
+            if leader_a == leader_b:
+                return [a, b]
+            parent[leader_a] = leader_b
+        return []
 ```
