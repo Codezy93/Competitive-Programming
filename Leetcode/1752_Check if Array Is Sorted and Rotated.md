@@ -53,6 +53,11 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 
 ## Code
 ```python
-
-
+class Solution:
+    def check(self, nums: List[int]) -> bool:
+        c = 0
+        for i, j in enumerate(nums):
+            if nums[i - 1] > j:
+                c += 1
+        return c <= 1
 ```
