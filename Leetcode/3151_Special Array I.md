@@ -55,6 +55,10 @@ There is only two pairs: `(2,1)` and `(1,4)`, and both of them contain numbers w
 
 ## Code
 ```python
-
-
+class Solution:
+    def isArraySpecial(self, nums: List[int]) -> bool:
+        for i in range(0, len(nums)-1):
+            if (nums[i] ^ nums[i+1]) % 2 == 0:
+                return False
+        return True
 ```
