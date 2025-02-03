@@ -65,6 +65,21 @@ Hence, we return `3`.
 
 ## Code
 ```python
-
-
+class Solution:
+    def longestMonotonicSubarray(self, nums: List[int]) -> int:
+        ans = increasing_length = 1
+        for i, num in enumerate(nums[1:], start=1):
+            if nums[i - 1] < num:
+                increasing_length += 1
+                ans = max(ans, increasing_length)
+            else:
+                increasing_length = 1
+        decreasing_length = 1
+        for i, num in enumerate(nums[1:], start=1):
+            if nums[i - 1] > num:
+                decreasing_length += 1
+                ans = max(ans, decreasing_length)
+            else:
+                decreasing_length = 1
+        return ans
 ```
