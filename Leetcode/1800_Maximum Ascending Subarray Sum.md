@@ -51,6 +51,18 @@ A subarray `[numsl, numsl+1, ..., numsr-1, numsr]` is **ascending ** if for all 
 
 ## Code
 ```python
-
-
+class Solution:
+    def maxAscendingSum(self, nums: List[int]) -> int:
+        nums.append(0)
+        sums = 0
+        index = 0
+        temp = 0
+        while index < len(nums)-1:
+            temp += nums[index]
+            if nums[index] >= nums[index+1]:
+                if sums < temp:
+                    sums = temp
+                temp = 0
+            index += 1
+        return sums
 ```
