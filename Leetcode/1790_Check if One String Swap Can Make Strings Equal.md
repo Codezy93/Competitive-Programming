@@ -50,6 +50,25 @@ Return `true` _if it is possible to make both strings equal by performing **at m
 
 ## Code
 ```python
-
-
+class Solution:
+    def areAlmostEqual(self, s1: str, s2: str) -> bool:
+        if s1 == s2:
+            return True
+        a = ""
+        b = ""
+        count = 0
+        for i, j in zip(s1, s2):
+            if i != j and a == "" and b == "":
+                a = i
+                b = j
+                count += 1
+            elif i != j and a == j and b == i:
+                count += 1
+            elif i == j:
+                pass
+            else:
+                return False
+        if count != 2:
+            return False
+        return True
 ```
