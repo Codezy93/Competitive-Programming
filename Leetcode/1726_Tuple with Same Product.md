@@ -46,6 +46,13 @@ Given an array `nums` of **distinct ** positive integers, return _the number of 
 
 ## Code
 ```python
-
-
+class Solution:
+    def tupleSameProduct(self, nums: List[int]) -> int:
+        product_count = defaultdict(int)
+        for i in range(1, len(nums)):
+            for j in range(i):
+                product = nums[i] * nums[j]
+                product_count[product] += 1
+        total_tuples = sum(count * (count - 1) // 2 for count in product_count.values()) << 3
+        return total_tuples
 ```
