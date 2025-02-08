@@ -57,6 +57,17 @@ nc.find(10); // Number 10 is at the indices 2, 3, and 5. The smallest index that
 
 ## Code
 ```python
-
-
+class NumberContainers:
+    def __init__(self):
+        self.index_to_number = {}
+        self.number_to_indices = defaultdict(SortedSet)
+    def change(self, index: int, number: int) -> None:
+        if index in self.index_to_number:
+            current_number = self.index_to_number[index]
+            self.number_to_indices[current_number].remove(index)
+        self.index_to_number[index] = number
+        self.number_to_indices[number].add(index)
+    def find(self, number: int) -> int:
+        indices = self.number_to_indices[number]
+        return indices[0] if indices else -1
 ```
