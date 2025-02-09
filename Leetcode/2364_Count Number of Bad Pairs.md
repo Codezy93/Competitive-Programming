@@ -46,6 +46,18 @@ There are a total of 5 bad pairs, so we return 5.
 
 ## Code
 ```python
-
-
+class Solution:
+    def countBadPairs(self, nums: List[int]) -> int:
+        good_pairs = 0
+        diff_map = {}
+        for i, num in enumerate(nums):
+            diff = i - num
+            if diff in diff_map:
+                good_pairs += diff_map[diff]
+                diff_map[diff] += 1
+            else:
+                diff_map[diff] = 1
+        n = len(nums)
+        total_pairs = (n * (n - 1)) // 2
+        return total_pairs - good_pairs
 ```
