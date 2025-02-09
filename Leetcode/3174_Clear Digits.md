@@ -54,6 +54,13 @@ Then we apply the operation on `s[1]`, and `s` becomes `""`.
 
 ## Code
 ```python
-
-
+class Solution:
+    def clearDigits(self, s: str) -> str:
+        ans = ""
+        for i in s:
+            if i not in "0123456789":
+                ans = ans + i
+            else:
+                ans = ans[0:len(ans)-1]
+        return ans
 ```
