@@ -60,6 +60,15 @@ It can be shown that 4 is the minimum number of operations needed so that all el
 
 ## Code
 ```python
-
-
+import heapq
+class Solution:
+    def minOperations(self, nums: List[int], k: int) -> int:
+        heapq.heapify(nums)
+        c = 0
+        while nums[0] < k:
+            first = heapq.heappop(nums)
+            second = heapq.heappop(nums)
+            heapq.heappush(nums, first * 2 + second)
+            c += 1
+        return c
 ```
