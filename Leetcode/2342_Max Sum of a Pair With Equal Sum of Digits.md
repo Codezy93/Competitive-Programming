@@ -44,6 +44,36 @@ So the maximum sum that we can obtain is 54.
 
 ## Code
 ```python
-
-
+class Solution:
+    def maximumSum(self, nums: List[int]) -> int:
+        sums = {}
+        for i in nums:
+            temp = 0
+            for j in str(i):
+                temp += int(j)
+            if temp in sums:
+                sums[temp].append(i)
+            else:
+                sums[temp] = [i]
+        max_sum = -1
+        for i in sums:
+            if len(sums[i]) == 1:
+                pass
+            elif len(sums[i]) == 2:
+                if max_sum < sums[i][0] + sums[i][1]:
+                    max_sum = sums[i][0] + sums[i][1]
+            else:
+                m1 = 0
+                m2 = 0
+                for j in sums[i]:
+                    if j > m1:
+                        m2 = m1
+                        m1 = j
+                    elif j > m2:
+                        m2 = j
+                    else:
+                        pass
+                if m1+m2 > max_sum:
+                    max_sum = m1+m2
+        return max_sum
 ```
