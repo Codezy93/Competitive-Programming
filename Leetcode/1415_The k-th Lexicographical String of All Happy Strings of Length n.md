@@ -58,6 +58,17 @@ Return _the kth string_ of this list or return an **empty string ** if there are
 
 ## Code
 ```python
-
-
+class Solution:
+    def getHappyString(self, n: int, k: int) -> str:
+        def dfs(current_str):
+            if len(current_str) == n:
+                happy_strings.append(current_str)
+                return
+            for char in 'abc':
+                if current_str and current_str[-1] == char:
+                    continue
+                dfs(current_str + char)
+        happy_strings = []
+        dfs('')
+        return '' if len(happy_strings) < k else happy_strings[k - 1]
 ```
