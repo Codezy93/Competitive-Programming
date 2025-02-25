@@ -52,6 +52,15 @@ All sub-arrays have even sum and the answer is 0.
 
 ## Code
 ```python
-
-
+class Solution:
+    def numOfSubarrays(self, arr: List[int]) -> int:
+        mod = 10**9 + 7
+        count = [1, 0]
+        answer = 0
+        prefix_sum = 0
+        for num in arr:
+            prefix_sum += num
+            answer = (answer + count[prefix_sum % 2 ^ 1]) % mod
+            count[prefix_sum % 2] += 1
+        return answer
 ```
