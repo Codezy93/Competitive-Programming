@@ -46,6 +46,18 @@ A **subsequence ** is derived from another sequence `arr` by deleting any number
 
 ## Code
 ```python
-
-
+class Solution:
+    def lenLongestFibSubseq(self, arr):
+        value_to_index = {value: index for index, value in enumerate(arr)}
+        n = len(arr)
+        dp = [[2 for _ in range(n)] for _ in range(n)]
+        longest_fib_sequence = 0
+        for i in range(n):
+            for j in range(i):
+                difference = arr[i] - arr[j]
+                if difference in value_to_index and value_to_index[difference] < j:
+                    prev_index = value_to_index[difference]
+                    dp[j][i] = max(dp[j][i], dp[prev_index][j] + 1)
+                    longest_fib_sequence = max(longest_fib_sequence, dp[j][i])
+        return longest_fib_sequence
 ```
