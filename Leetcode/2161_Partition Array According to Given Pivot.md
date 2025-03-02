@@ -55,6 +55,17 @@ The relative ordering of the elements less than and greater than pivot is also m
 
 ## Code
 ```python
-
-
+class Solution:
+    def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
+        l = []
+        m = []
+        r = []
+        for i in nums:
+            if i < pivot:
+                l.append(i)
+            elif i > pivot:
+                r.append(i)
+            else:
+                m.append(i)
+        return l+m+r
 ```
