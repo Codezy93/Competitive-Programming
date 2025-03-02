@@ -62,6 +62,23 @@ Return _the resulting array_. The returned array must be sorted in ascending ord
 
 ## Code
 ```python
-
-
+class Solution:
+    def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
+        map = {}
+        for i, j in nums1:
+            if i in map:
+                map[i] += j
+            else:
+                map[i] = j
+        for i, j in nums2:
+            if i in map:
+                map[i] += j
+            else:
+                map[i] = j
+        res = []
+        key = list(map.keys())
+        key.sort()
+        for i in key:
+            res.append([i, map[i]])
+        return res
 ```
