@@ -47,6 +47,11 @@ An integer `y` is a power of three if there exists an integer `x` such that `y =
 
 ## Code
 ```python
-
-
+class Solution:
+  def checkPowersOfThree(self, n: int) -> bool:
+    while n > 1:
+      n, r = divmod(n, 3)
+      if r == 2:
+        return False
+    return True
 ```
