@@ -49,6 +49,7 @@ Return _the number of **colored cells ** at the end of _`n` _minutes_.
 
 ## Code
 ```python
-
-
+class Solution:
+    def coloredCells(self, n: int) -> int:
+        return n**2 + (n - 1)**2
 ```
