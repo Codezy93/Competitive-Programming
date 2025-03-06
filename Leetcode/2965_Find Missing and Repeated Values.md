@@ -44,6 +44,11 @@ Return _a **0-indexed ** integer array _`ans` _of size_`2` _where_`ans[0]`_equal
 
 ## Code
 ```python
-
-
+class Solution:
+  def findMissingAndRepeatedValues(self, grid: list[list[int]]) -> list[int]:
+    count = [1] + [0] * len(grid)**2
+    for row in grid:
+      for num in row:
+        count[num] += 1
+    return [count.index(2), count.index(0)]
 ```
