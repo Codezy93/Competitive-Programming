@@ -48,6 +48,12 @@ Return the number of substrings containing **at least **  one occurrence of all 
 
 ## Code
 ```python
-
-
+class Solution:
+  def numberOfSubstrings(self, s: str) -> int:
+    ans = 0
+    lastSeen = {c: -1 for c in 'abc'}
+    for i, c in enumerate(s):
+      lastSeen[c] = i
+      ans += 1 + min(lastSeen.values())
+    return ans
 ```
