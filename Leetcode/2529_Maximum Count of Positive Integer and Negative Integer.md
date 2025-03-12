@@ -60,6 +60,7 @@ Given an array `nums` sorted in **non-decreasing ** order, return _the maximum b
 
 ## Code
 ```python
-
-
+class Solution:
+    def maximumCount(self, nums: List[int]) -> int:
+       return max(sum(num > 0 for num in nums), sum(num < 0 for num in nums)) 
 ```
