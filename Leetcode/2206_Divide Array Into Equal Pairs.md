@@ -52,6 +52,17 @@ There is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy 
 
 ## Code
 ```python
-
-
+class Solution:
+    def divideArray(self, nums: List[int]) -> bool:
+        map = {}
+        for i in nums:
+            if i in map:
+                map[i] += 1
+            else:
+                map[i] = 1
+        for i in map:
+            if map[i]%2 == 1:
+                return False
+        else:
+            return True  
 ```
