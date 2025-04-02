@@ -53,6 +53,13 @@ It can be shown that there are no ordered triplets of indices with a value great
 
 ## Code
 ```python
-
-
+class Solution:
+    def maximumTripletValue(self, nums: List[int]) -> int:
+        max = 0
+        for i in range(0, len(nums)):
+            for j in range(i+1, len(nums)):
+                for k in range(j+1, len(nums)):
+                    val = (nums[i] - nums[j]) * nums[k]
+                    max = val if val > max else max
+        return max
 ```
