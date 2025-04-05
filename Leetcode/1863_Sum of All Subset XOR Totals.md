@@ -71,6 +71,15 @@ An array `a` is a **subset ** of an array `b` if `a` can be obtained from `b` by
 
 ## Code
 ```python
-
-
+class Solution:
+    def subsetXORSum(self, nums: List[int]) -> int:
+        n = len(nums)
+        total = 0
+        for mask in range(1 << n):
+            xor_sum = 0
+            for i in range(n):
+                if mask & (1 << i):
+                    xor_sum ^= nums[i]
+            total += xor_sum
+        return total
 ```
