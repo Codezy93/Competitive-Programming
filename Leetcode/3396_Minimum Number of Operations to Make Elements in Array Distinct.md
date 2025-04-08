@@ -69,6 +69,12 @@ The array already contains distinct elements. Therefore, the answer is 0.
 
 ## Code
 ```python
-
-
+class Solution:
+    def minimumOperations(self, nums: List[int]) -> int:
+        seen = set()
+        for i, num in reversed(list(enumerate(nums))):
+            if num in seen:
+                return (i + 1 + 2) // 3
+            seen.add(num)
+        return 0
 ```
