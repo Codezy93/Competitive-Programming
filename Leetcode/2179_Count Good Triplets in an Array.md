@@ -47,6 +47,35 @@ Out of those triplets, only the triplet (0,1,3) satisfies pos2x < pos2y < pos2z.
 
 ## Code
 ```python
-
+class BinaryIndexedTree:
+    def __init__(self, size):
+        self.size = size
+        self.tree_array = [0] * (size + 1)
+    @staticmethod
+    def lowbit(x):
+        return x & -x
+    def update(self, index, delta):
+        while index <= self.size:
+            self.tree_array[index] += delta
+            index += BinaryIndexedTree.lowbit(index)
+    def query(self, index):
+        sum_value = 0
+        while index > 0:
+            sum_value += self.tree_array[index]
+            index -= BinaryIndexedTree.lowbit(index)
+        return sum_value
+class Solution:
+    def goodTriplets(self, nums1: List[int], nums2: List[int]) -> int:
+        position = {value: index for index, value in enumerate(nums2, 1)}
+        good_triplets_count = 0
+        length = len(nums1)
+        tree = BinaryIndexedTree(length)
+        for number in nums1:
+            order = position[number]
+            left_count = tree.query(order)
+            right_count = length - order - (tree.query(length) - tree.query(order))
+            good_triplets_count += left_count * right_count
+            tree.update(order, 1)
+        return good_triplets_count
 
 ```
