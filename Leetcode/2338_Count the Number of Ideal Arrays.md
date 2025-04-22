@@ -61,6 +61,27 @@ There are a total of 9 + 1 + 1 = 11 distinct ideal arrays.
 
 ## Code
 ```python
-
-
+class Solution:
+    def idealArrays(self, n: int, maxValue: int) -> int:
+        @lru_cache(maxsize=None)
+        def dfs(value, length):
+            result = comb_table[-1][length - 1]
+            if length < n:
+                multiple = 2
+                while multiple * value <= maxValue:
+                    result = (result + dfs(multiple * value, length + 1)) % MODULE
+                    multiple += 1
+            return result
+        comb_table = [[0] * 16 for _ in range(n)]
+        MODULE = 10**9 + 7
+        for i in range(n):
+            for j in range(min(16, i + 1)):
+                if j == 0:
+                    comb_table[i][j] = 1
+                else:
+                    comb_table[i][j] = (comb_table[i - 1][j] + comb_table[i - 1][j - 1]) % MODULE
+        answer = 0
+        for i in range(1, maxValue + 1):
+            answer = (answer + dfs(i, 1)) % MODULE 
+        return answer
 ```
