@@ -68,6 +68,15 @@ It can be shown that there are no other interesting subarrays. So, the answer is
 
 ## Code
 ```python
-
-
+class Solution:
+    def countInterestingSubarrays(self, nums: List[int], modulo: int, k: int) -> int:
+        ans = 0
+        prefix = 0
+        prefixCount = collections.Counter({0: 1})
+        for num in nums:
+            if num % modulo == k:
+                prefix = (prefix + 1) % modulo
+            ans += prefixCount[(prefix - k + modulo) % modulo]
+            prefixCount[prefix] += 1
+        return ans
 ```
