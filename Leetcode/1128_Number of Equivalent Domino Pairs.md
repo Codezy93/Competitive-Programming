@@ -40,6 +40,14 @@ Return _the number of pairs_`(i, j)`_for which_`0 <= i < j < dominoes.length` _,
 
 ## Code
 ```python
-
-
+class Solution:
+    def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
+        count_map = {}
+        for domino in dominoes:
+            key = tuple(sorted(domino))
+            count_map[key] = count_map.get(key, 0) + 1
+        count = 0
+        for val in count_map.values():
+            count += val * (val - 1) // 2
+        return count
 ```
