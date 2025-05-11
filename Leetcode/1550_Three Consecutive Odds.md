@@ -39,6 +39,11 @@ Given an integer array `arr`, return `true` if there are three consecutive odd n
 
 ## Code
 ```python
-
-
+class Solution:
+    def threeConsecutiveOdds(self, arr: List[int]) -> bool:
+        arr = [i%2 for i in arr]
+        for i in range(0, len(arr)-2):
+            if sum(arr[i:i+3]) == 3:
+                return True
+        return False
 ```
