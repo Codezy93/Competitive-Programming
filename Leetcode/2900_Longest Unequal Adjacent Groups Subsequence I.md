@@ -50,6 +50,11 @@ Return _the selected subsequence. If there are multiple answers, return **any **
 
 ## Code
 ```python
-
-
+class Solution:
+    def getLongestSubsequence(self, words: List[str], groups: List[int]) -> List[str]:
+        longest_subsequence_words = []
+        for i, group_number in enumerate(groups):
+            if i == 0 or group_number != groups[i - 1]:
+                longest_subsequence_words.append(words[i])
+        return longest_subsequence_words
 ```
