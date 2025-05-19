@@ -52,6 +52,25 @@ As all the sides are of different lengths, it will form a scalene triangle.
 
 ## Code
 ```python
-
-
+class Solution:
+    def checkTriangle(self, sides):
+        a = sides[0]
+        b = sides[1]
+        c = sides[2]
+        if a+b>c and a+c>b and b+c>a and a>0 and b>0 and c>0:
+            return True
+        else:
+            return False
+    def triangleType(self, sides: List[int]) -> str:
+        if self.checkTriangle(sides):
+            a = sides[0]
+            b = sides[1]
+            c = sides[2]
+            if a==b and b==c and c==a:
+                return 'equilateral'
+            elif a==b or b==c or c==a:
+                return 'isosceles'
+            else:
+                return 'scalene'
+        return 'none'
 ```
