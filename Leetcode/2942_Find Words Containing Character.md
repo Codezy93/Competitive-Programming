@@ -53,6 +53,11 @@ Return _an **array of indices ** representing the words that contain the charact
 
 ## Code
 ```python
-
-
+class Solution:
+    def findWordsContaining(self, words: List[str], x: str) -> List[int]:
+        indices = []
+        for i, j in enumerate(words):
+            if x in j:
+                indices.append(i)
+        return indices
 ```
