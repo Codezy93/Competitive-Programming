@@ -64,6 +64,11 @@ We return 0 - 15 = -15 as the answer.
 
 ## Code
 ```python
-
-
+class Solution:
+    def differenceOfSums(self, n: int, m: int) -> int:
+        total = (n * (n + 1)) // 2
+        tn = n // m
+        ds = m * tn * (tn + 1) // 2
+        nds = total-ds
+        return int(nds-ds)
 ```
