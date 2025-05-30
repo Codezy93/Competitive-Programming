@@ -56,6 +56,37 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 
 ## Code
 ```python
+from heapq import heappop, heappush
+from collections import defaultdict
+from math import inf
+from typing import List
 
-
+class Solution:
+    def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:
+        def dijkstra(start_node):
+            distances = [inf] * num_nodes
+            distances[start_node] = 0
+            priority_queue = [(0, start_node)]
+            while priority_queue:
+                current_distance, current_node = heappop(priority_queue)
+                for neighbor in graph[current_node]:
+                    if distances[neighbor] > current_distance + 1:
+                        distances[neighbor] = current_distance + 1
+                        heappush(priority_queue, (distances[neighbor], neighbor))
+            return distances
+        graph = defaultdict(list)
+        for i, neighbor in enumerate(edges):
+            if neighbor != -1:
+                graph[i].append(neighbor)
+        num_nodes = len(edges)
+        distances_from_node1 = dijkstra(node1)
+        distances_from_node2 = dijkstra(node2)
+        closest_meeting_node = -1
+        smallest_max_distance = inf
+        for i, (distance_node1, distance_node2) in enumerate(zip(distances_from_node1, distances_from_node2)):
+            current_max_distance = max(distance_node1, distance_node2)
+            if current_max_distance < smallest_max_distance:
+                smallest_max_distance = current_max_distance
+                closest_meeting_node = i
+        return closest_meeting_node
 ```
