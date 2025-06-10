@@ -57,6 +57,20 @@ Return the **maximum ** difference, calculated as the frequency of the character
 
 ## Code
 ```python
-
-
+class Solution:
+    def maxDifference(self, s: str) -> int:
+        maxOdd = 0
+        minEven = float(inf)
+        map = {}
+        for i in s:
+            if i in map:
+                map[i] += 1
+            else:
+                map[i] = 1
+        for i in map:
+            if map[i]%2 == 0 and map[i] < minEven:
+                minEven = map[i]
+            if map[i]%2 != 0 and map[i] > maxOdd:
+                maxOdd = map[i]
+        return maxOdd - minEven
 ```
