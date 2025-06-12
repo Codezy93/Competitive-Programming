@@ -45,6 +45,12 @@ The adjacent elements `nums[0]` and `nums[1]` have the maximum absolute differen
 
 ## Code
 ```python
-
-
+class Solution:
+    def maxAdjacentDistance(self, nums: List[int]) -> int:
+        nums.append(nums[0])
+        res = 0
+        for i in range(0, len(nums)-1):
+            if res < abs(nums[i] - nums[i+1]):
+                res = abs(nums[i] - nums[i+1])
+        return res
 ```
