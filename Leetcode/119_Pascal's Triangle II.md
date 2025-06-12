@@ -53,6 +53,17 @@ In **Pascal 's triangle **, each number is the sum of the two numbers directly a
 
 ## Code
 ```python
-
-
+class Solution:
+    def getRow(self, rowIndex: int) -> List[int]:
+        row = [1, 1]
+        if rowIndex == 0:
+            return [1]
+        for i in range(rowIndex-1):
+            temp = []
+            temp.append(row[0])
+            for j in range(len(row)-1):
+                temp.append(row[j]+row[j+1])
+            temp.append(row[-1])
+            row = temp
+        return row
 ```
