@@ -69,6 +69,12 @@ Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, ret
 
 ## Code
 ```python
-
-
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        n = len(nums)
+        total = (n / 2) * (2 + (n - 1))
+        s = 0
+        for i in nums:
+            s += i
+        return int(total - s)
 ```
