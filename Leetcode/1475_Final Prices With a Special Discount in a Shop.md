@@ -54,6 +54,12 @@ For items 3 and 4 you will not receive any discount at all.
 
 ## Code
 ```python
-
-
+class Solution:
+    def finalPrices(self, prices: List[int]) -> List[int]:
+        for i in range(len(prices)):
+            for j in range(i+1, len(prices)):
+                if prices[i] >= prices[j]:
+                    prices[i] = prices[i] - prices[j]
+                    break
+        return prices
 ```
