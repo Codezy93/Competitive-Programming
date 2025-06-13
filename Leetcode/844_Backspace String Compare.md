@@ -55,6 +55,17 @@ Note that after backspacing an empty text, the text will continue empty.
 
 ## Code
 ```python
-
-
+class Solution:
+    def backspaceCompare(self, s: str, t: str) -> bool:
+        def func(string):
+            st = []
+            for i in string:
+                if i == "#":
+                    if len(st) > 0:
+                        st.pop()
+                else:
+                    st.append(i)
+            print(st)
+            return st
+        return func(s) == func(t)
 ```
