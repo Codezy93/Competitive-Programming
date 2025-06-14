@@ -58,6 +58,13 @@ Initially, `word = "a"`. We need to do the operation three times:
 
 ## Code
 ```python
-
-
+class Solution:
+    def kthCharacter(self, k: int, word: str = "a") -> str:
+        if len(word) >= k:
+            return word[k - 1]
+        else:
+            temp = word
+            for i in word:
+                temp += chr(ord(i) + 1)
+            return self.kthCharacter(k, temp)
 ```
