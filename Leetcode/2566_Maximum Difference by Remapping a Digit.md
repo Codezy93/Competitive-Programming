@@ -53,6 +53,20 @@ Thus, we return 99.
 
 ## Code
 ```python
-
-
+class Solution:
+    def minMaxDifference(self, num: int) -> int:
+        num_str = str(num)
+        a = None
+        for ch in num_str:
+            if ch != '9':
+                a = ch
+                break
+        max_num = int(num_str.replace(a, '9')) if a else num
+        b = None
+        for ch in num_str:
+            if ch != '0':
+                b = ch
+                break
+        min_num = int(num_str.replace(b, '0')) if b else num
+        return max_num - min_num
 ```
