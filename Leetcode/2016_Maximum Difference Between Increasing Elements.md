@@ -54,6 +54,14 @@ The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 =
 
 ## Code
 ```python
-
-
+class Solution:
+    def maximumDifference(self, nums: List[int]) -> int:
+        res = -1
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if nums[j] > nums[i]:
+                    diff = nums[j] - nums[i]
+                    if diff > res:
+                        res = diff
+        return res
 ```
