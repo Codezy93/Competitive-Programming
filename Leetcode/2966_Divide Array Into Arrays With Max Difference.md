@@ -71,6 +71,15 @@ The difference between any two elements in each array is less than or equal to 1
 
 ## Code
 ```python
-
-
+class Solution:
+    def divideArray(self, nums: List[int], k: int) -> List[List[int]]:
+        nums.sort()
+        res = []
+        for i in range(0, len(nums), 3):
+            res.append(nums[i:i+3])
+        for i in res:
+            a,b,c = i
+            if abs(a-b) > k or abs(b-c) > k or abs(c-a) > k:
+                return []
+        return res
 ```
