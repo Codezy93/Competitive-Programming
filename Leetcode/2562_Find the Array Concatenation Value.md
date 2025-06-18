@@ -75,6 +75,17 @@ Since the concatenation value is 673 so the answer is 673.
 
 ## Code
 ```python
-
-
+class Solution:
+    def findTheArrayConcVal(self, nums: List[int]) -> int:
+        val = 0
+        l = 0
+        r = len(nums)-1
+        while l <= r:
+            if l == r:
+                val += nums[l]
+            else:
+                val += int(str(nums[l])+str(nums[r]))
+            l += 1
+            r -= 1
+        return val
 ```
