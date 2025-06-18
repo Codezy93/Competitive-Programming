@@ -52,6 +52,24 @@ Return `s` _after reversing it_.
 
 ## Code
 ```python
+import string
 
-
+class Solution:
+    def reverseOnlyLetters(self, s: str) -> str:
+        def isLetter(c):
+            return c in string.ascii_uppercase + string.ascii_lowercase
+        s = list(s)
+        left = 0
+        right = len(s)-1
+        while left < right:
+            if isLetter(s[left]) == False:
+                left += 1
+            if isLetter(s[right]) == False:
+                right -= 1
+            if isLetter(s[left]) and isLetter(s[right]):
+                s[left], s[right] = s[right], s[left]
+                left += 1
+                right -= 1
+        s = "".join(s)
+        return s
 ```
