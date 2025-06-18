@@ -41,6 +41,22 @@ The vowels in `s` are `['I', 'e', 'e', 'A']`. On reversing the vowels, s becomes
 
 ## Code
 ```python
-
-
+class Solution:
+    def reverseVowels(self, s: str) -> str:
+        def isVowel(c):
+            return c in "aeiouAEIOU"
+        s = list(s)
+        left = 0
+        right = len(s)-1
+        while left < right:
+            if isVowel(s[left]) == False:
+                left += 1
+            if isVowel(s[right]) == False:
+                right -= 1
+            if isVowel(s[left]) and isVowel(s[right]):
+                s[left], s[right] = s[right], s[left]
+                left += 1
+                right -= 1
+        s = "".join(s)
+        return s
 ```
