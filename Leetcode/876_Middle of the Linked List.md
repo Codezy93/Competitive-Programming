@@ -45,6 +45,15 @@ If there are two middle nodes, return **the second middle ** node.
 
 ## Code
 ```python
-
-
+class Solution:
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        length = 0
+        itr = head
+        while itr:
+            itr = itr.next
+            length += 1
+        itr = head
+        for i in range(length//2):
+            itr = itr.next
+        return itr
 ```
