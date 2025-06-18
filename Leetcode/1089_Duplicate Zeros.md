@@ -41,6 +41,14 @@ Given a fixed-length integer array `arr`, duplicate each occurrence of zero, shi
 
 ## Code
 ```python
-
-
+class Solution:
+    def duplicateZeros(self, arr: List[int]) -> None:
+        index = 0
+        while index < len(arr):
+            if arr[index] == 0:
+                arr.insert(index+1, 0)
+                index += 2
+                arr.pop()
+            else:
+                index += 1
 ```
