@@ -54,6 +54,17 @@ Return _the **minimum ** number of characters you need to delete to make_ `word`
 
 ## Code
 ```python
-
-
+class Solution:
+  def minimumDeletions(self, word: str, k: int) -> int:
+    ans = math.inf
+    count = collections.Counter(word)
+    for minFreq in count.values():
+      deletions = 0
+      for freq in count.values():
+        if freq < minFreq:
+          deletions += freq
+        else:
+          deletions += max(0, freq - (minFreq + k))
+      ans = min(ans, deletions)
+    return ans
 ```
