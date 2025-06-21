@@ -48,6 +48,28 @@ and that "hit" isn't the answer even though it occurs more because it is banned.
 
 ## Code
 ```python
+import string
 
-
+class Solution:
+    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
+        allowed = string.ascii_lowercase + " "
+        paragraph = paragraph.lower()
+        paragraph = "".join([i if i in allowed else " " for i in paragraph])
+        paragraph = paragraph.split(" ")
+        map = {}
+        for i in paragraph:
+            if i in map:
+                map[i] += 1
+            else:
+                map[i] = 1
+        for i in banned:
+            map[i] = -1
+        map[""] = -1
+        mw = ""
+        mc = -1
+        for i in map:
+            if map[i] > mc:
+                mc = map[i]
+                mw = i
+        return mw
 ```
