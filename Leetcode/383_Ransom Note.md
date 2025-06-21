@@ -46,6 +46,20 @@ Each letter in `magazine` can only be used once in `ransomNote`.
 
 ## Code
 ```python
-
-
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        def hasher(l):
+            map = {}
+            for i in l:
+                if i in map:
+                    map[i] += 1
+                else:
+                    map[i] = 1
+            return map
+        m = hasher(magazine)
+        r = hasher(ransomNote)
+        for i in r:
+            if i not in m or r[i] > m[i]:
+                return False
+        return True
 ```
