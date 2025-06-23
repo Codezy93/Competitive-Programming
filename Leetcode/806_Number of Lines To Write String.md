@@ -55,6 +55,14 @@ There are a total of 2 lines, and the last line is 4 pixels wide.
 
 ## Code
 ```python
-
-
+class Solution:
+    def numberOfLines(self, widths: List[int], s: str) -> List[int]:
+        lines = 1
+        char = 0
+        for i in s:
+            if char+widths[ord(i)-ord('a')] > 100:
+                lines += 1
+                char = 0
+            char += widths[ord(i)-ord('a')]
+        return [lines, char]
 ```
