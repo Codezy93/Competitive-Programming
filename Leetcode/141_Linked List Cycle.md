@@ -64,6 +64,14 @@ Return `true` _if there is a cycle in the linked list_. Otherwise, return `false
 
 ## Code
 ```python
-
-
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = head
+        fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
 ```
