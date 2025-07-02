@@ -55,6 +55,18 @@ Return _the intervals of every **large ** group sorted in **increasing order by 
 
 ## Code
 ```python
-
-
+class Solution:
+    def largeGroupPositions(self, s: str) -> List[List[int]]:
+        grp = []
+        stack = []
+        for i, j in enumerate(s):
+            if not stack or stack[-1] == j:
+                stack.append(j)
+            else:
+                if len(stack) >= 3:
+                    grp.append([i - len(stack), i - 1])
+                stack = [j]
+        if len(stack) >= 3:
+            grp.append([len(s) - len(stack), len(s) - 1])
+        return grp
 ```
