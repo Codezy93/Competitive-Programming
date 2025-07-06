@@ -62,6 +62,24 @@ findSumPairs.count(7);  // return 11; pairs (2,1), (2,2), (2,4), (3,1), (3,2), (
 
 ## Code
 ```python
-
-
+class FindSumPairs:
+    def __init__(self, nums1: List[int], nums2: List[int]):
+        self.nums1 = nums1
+        self.nums2 = nums2
+        self.map = {}
+        for num in nums2:
+            self.map[num] = self.map.get(num, 0) + 1
+    def add(self, index: int, val: int) -> None:
+        original_val = self.nums2[index]
+        self.map[original_val] -= 1
+        if self.map[original_val] == 0:
+            del self.map[original_val]
+        self.nums2[index] += val
+        new_val = self.nums2[index]
+        self.map[new_val] = self.map.get(new_val, 0) + 1
+    def count(self, tot: int) -> int:
+        res = 0
+        for num in self.nums1:
+            res += self.map.get(tot - num, 0)
+        return res
 ```
