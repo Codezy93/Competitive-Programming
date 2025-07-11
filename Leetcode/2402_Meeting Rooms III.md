@@ -71,6 +71,23 @@ Room 0 held 1 meeting while rooms 1 and 2 each held 2 meetings, so we return 1.
 
 ## Code
 ```python
-
-
+class Solution:
+  def mostBooked(self, n: int, meetings: list[list[int]]) -> int:
+    count = [0] * n
+    meetings.sort()
+    occupied = []
+    availableRoomIds = [i for i in range(n)]
+    heapq.heapify(availableRoomIds)
+    for start, end in meetings:
+      while occupied and occupied[0][0] <= start:
+        heapq.heappush(availableRoomIds, heapq.heappop(occupied)[1])
+      if availableRoomIds:
+        roomId = heapq.heappop(availableRoomIds)
+        count[roomId] += 1
+        heapq.heappush(occupied, (end, roomId))
+      else:
+        newStart, roomId = heapq.heappop(occupied)
+        count[roomId] += 1
+        heapq.heappush(occupied, (newStart + (end - start), roomId))
+    return count.index(max(count))
 ```
