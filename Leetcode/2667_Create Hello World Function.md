@@ -46,6 +46,7 @@ Any arguments could be passed to the function but it should still always return 
 
 ## Code
 ```python
-
-
+var createHelloWorld = function() {
+    return (...args) => "Hello World"
+};
 ```
