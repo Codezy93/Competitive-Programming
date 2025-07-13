@@ -55,6 +55,19 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 
 ## Code
 ```python
-
-
+class Solution:
+    def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
+        res = 0
+        players.sort()
+        trainers.sort()
+        index = 0
+        while index < len(players):
+            i = players[index]
+            if i <= trainers[0]:
+                res += 1
+                index += 1
+            trainers.pop(0)
+            if len(trainers) == 0:
+                break
+        return res
 ```
