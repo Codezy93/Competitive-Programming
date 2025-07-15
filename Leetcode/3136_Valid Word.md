@@ -71,6 +71,24 @@ This word contains a `'$'` character and does not have a consonant.
 
 ## Code
 ```python
-
-
+import string
+class Solution:
+    def isValid(self, word: str) -> bool:
+        if len(word)<=2:
+            return False
+        valid = string.ascii_letters + string.digits
+        vowel = "aeiouAEIOU"
+        v = 0
+        c = 0
+        for i in word:
+            if i not in valid:
+                return False
+            else:
+                if i in vowel:
+                   v += 1
+                elif i not in string.digits:
+                    c += 1
+                else:
+                    pass
+        return v>0 and c>0
 ```
