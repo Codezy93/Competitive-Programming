@@ -53,6 +53,16 @@ There are 3 unique values, so the answer is 3.
 
 ## Code
 ```python
-
-
+class Solution:
+    def subarrayBitwiseORs(self, arr: List[int]) -> int:
+        res = []
+        l = 0
+        for i in arr:
+            r = len(res)
+            res.append(i)
+            for j in range(l, r):
+                if res[-1] != (res[j] | i):
+                    res.append(res[j] | i)
+            l = r
+        return len(set(res))
 ```
