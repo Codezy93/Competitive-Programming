@@ -53,6 +53,26 @@ So the total probability of A becoming empty first plus half the probability tha
 
 ## Code
 ```python
+from functools import lru_cache
 
-
+class Solution:
+    def soupServings(self, quantity: int) -> float:
+        @lru_cache(None)
+        def recursive_serve(a_quantity: int, b_quantity: int) -> float:
+            if a_quantity <= 0 and b_quantity <= 0:
+                return 0.5
+            if a_quantity <= 0:
+                return 1
+            if b_quantity <= 0:
+                return 0
+            return 0.25 * (
+                recursive_serve(a_quantity - 4, b_quantity) +
+                recursive_serve(a_quantity - 3, b_quantity - 1) +
+                recursive_serve(a_quantity - 2, b_quantity - 2) +
+                recursive_serve(a_quantity - 1, b_quantity - 3)
+            )
+        if quantity > 4800:
+            return 1.0
+        normalized_quantity = (quantity + 24) // 25
+        return recursive_serve(normalized_quantity, normalized_quantity)
 ```
