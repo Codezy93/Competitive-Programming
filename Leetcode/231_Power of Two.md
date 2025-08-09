@@ -47,12 +47,24 @@ An integer `n` is a power of two, if there exists an integer `x` such that `n ==
 
 ## Solution
 
+- All the power of two have a pattern in binary format that the left most bit is a set bit and others are unset bits.
 
+1 = 1
+2 = 10
+4 = 100
+8 = 1000
+16 = 10000
 
+- So basically we write a code to convert the integer to binary format.
+- Check if the left most bit is set and check if all other bits are unset.
 ---
 
 ## Code
 ```python
-
-
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        if n == 1:
+            return True
+        n = bin(n).replace("0b", "")
+        return n[0] == '1' and int(n[1:]) == 0
 ```
