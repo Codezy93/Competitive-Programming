@@ -62,6 +62,12 @@ Note:
 
 ## Code
 ```python
-
-
+class Solution:
+    def largestGoodInteger(self, num: str) -> str:
+        s = []
+        for i in range(0, len(num)-2):
+            if num[i] == num[i+1] and num[i] == num[i+2]:
+                s.append(int(num[i]))
+        s = list(set(s))
+        return str(max(s))*3 if len(s) > 0 else ""
 ```
